@@ -1,0 +1,17 @@
+use_frameworks!
+
+target 'Nightstand_Example' do
+  pod 'Nightstand', :path => '../'
+
+  target 'Nightstand_Tests' do
+    inherit! :search_paths
+
+    pod 'iOSSnapshotTestCase'
+  end
+  
+  target 'Nightstand_UITests' do
+    inherit! :search_paths
+      
+    pod 'iOSSnapshotTestCase'
+  end
+end

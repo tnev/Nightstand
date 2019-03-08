@@ -1,0 +1,6 @@
+framework module Nightstand {
+  umbrella header "Nightstand-umbrella.h"
+
+  export *
+  module * { export * }
+}

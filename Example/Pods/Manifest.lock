@@ -1,0 +1,27 @@
+PODS:
+  - iOSSnapshotTestCase (5.0.2):
+    - iOSSnapshotTestCase/SwiftSupport (= 5.0.2)
+  - iOSSnapshotTestCase/Core (5.0.2)
+  - iOSSnapshotTestCase/SwiftSupport (5.0.2):
+    - iOSSnapshotTestCase/Core
+  - Nightstand (0.1.0)
+
+DEPENDENCIES:
+  - iOSSnapshotTestCase
+  - Nightstand (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - iOSSnapshotTestCase
+
+EXTERNAL SOURCES:
+  Nightstand:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iOSSnapshotTestCase: 2d51aa06775e95cecb0a1fb9c5c159ccd1dd4596
+  Nightstand: fd95f1f9cf61682ff43f636d523923b7171ef909
+
+PODFILE CHECKSUM: adef2dd20cfd3478584f70ea3e4334f898d55e65
+
+COCOAPODS: 1.5.3
