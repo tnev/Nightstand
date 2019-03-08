@@ -22,7 +22,7 @@ pod 'Nightstand'
 
 ## Author
 
-tnev, tneveldine@gmail.com
+Tyler Neveldine, tneveldine@gmail.com
 
 ## License
 
