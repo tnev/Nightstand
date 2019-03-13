@@ -1,3 +1,5 @@
+# UNDER CONSTRUCTION: Nightstand will be documented and ready for use very soon
+
 # Nightstand
 
 [![CI Status](https://img.shields.io/travis/tnev/Nightstand.svg?style=flat)](https://travis-ci.org/tnev/Nightstand)
