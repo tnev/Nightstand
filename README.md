@@ -10,7 +10,7 @@
 Nightstand is a convenient way to construct static table views for iOS. It removes the need to implement delegate and datasource methods; just construct your rows and sections, and configure them how you please. Nightstand takes care of the rest. Nightstand allows you use built-in cell types, or custom cell types. You can also use your existing UIViewControllers or UITableViewControllers just by having them conform to the necessary protocol.
 
 ## Why use it?
-Traditional table view implementations can become unweildy since they require logic to be spread across multiple delegate and data source methods. When we work with static tables, it’s much easier to think in terms of **sections** and **rows**. Nightstand allows you to construct an entire table by just defining a collection of sections and rows, without having to work with delegate or data source methods. This allows you to think more statically about your table views.
+Traditional table view implementations can become unwieldy since they require logic to be spread across multiple delegate and data source methods. When we work with static tables, it’s much easier to think in terms of **sections** and **rows**. Nightstand allows you to construct an entire table by just defining a collection of sections and rows, without having to work with delegate or data source methods. This allows you to think more statically about your table views.
 
 ## How does it work?
 Nightstand’s **Row** type represents a single row within a section. A **Row** can be one of the built in types: **Default, Subtitle, Value1, or Value2**, or a **Row** can be a custom cell type that you define.
