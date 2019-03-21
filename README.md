@@ -1,6 +1,5 @@
 # Nightstand
 
-[![CI Status](https://img.shields.io/travis/tnev/Nightstand.svg?style=flat)](https://travis-ci.org/tnev/Nightstand)
 [![Version](https://img.shields.io/cocoapods/v/Nightstand.svg?style=flat)](https://cocoapods.org/pods/Nightstand)
 [![License](https://img.shields.io/cocoapods/l/Nightstand.svg?style=flat)](https://cocoapods.org/pods/Nightstand)
 [![Platform](https://img.shields.io/cocoapods/p/Nightstand.svg?style=flat)](https://cocoapods.org/pods/Nightstand)
