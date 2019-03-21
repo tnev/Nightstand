@@ -8,7 +8,7 @@
 import UIKit
 import Nightstand
 
-class TableViewController: UIViewController, SectionedTableViewController
+class TableViewController: UIViewController, Sectioned
 {
     // MARK: - Properties
     var sections: [Section] = []

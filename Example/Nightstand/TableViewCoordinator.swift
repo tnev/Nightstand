@@ -20,7 +20,7 @@ class TableViewCoordinator: Coordinator
     /// Pushes the CellChoice table onto the navigation stack
     func start()
     {
-        let sections = TableViewSectionFactory().sections(for: .cellChoice, using: self)
+        let sections = SectionFactory().sections(for: .cellChoice, using: self)
         let tableViewController = TableViewController(coordinator: self, sections: sections)
         rootNavigationController.pushViewController(tableViewController, animated: true)
     }
@@ -28,7 +28,7 @@ class TableViewCoordinator: Coordinator
     /// Navigtes to the given type of table
     func navigateTo(_ tableType: TableViewController.TableType)
     {
-        let sections = TableViewSectionFactory().sections(for: tableType, using: self)
+        let sections = SectionFactory().sections(for: tableType, using: self)
         let defaultCellTableViewController = TableViewController(coordinator: self, sections: sections)
         rootNavigationController.pushViewController(defaultCellTableViewController, animated: true)
     }

@@ -8,7 +8,7 @@
 import Foundation
 import Nightstand
 
-class TableViewSectionFactory
+class SectionFactory
 {
     /// Cell configurations shared between all Cell Choice cells
     lazy var cellChoiceCellConfiguration: TableViewCellConfiguration =
@@ -21,7 +21,7 @@ class TableViewSectionFactory
 }
 
 // MARK: - Sections
-extension TableViewSectionFactory
+extension SectionFactory
 {
     func sections(for table: TableViewController.TableType, using coordinator: TableViewCoordinator) -> [Section]
     {
@@ -50,7 +50,7 @@ extension TableViewSectionFactory
 }
 
 // MARK: - Cell Choice Cells
-extension TableViewSectionFactory
+extension SectionFactory
 {
     private func cellChoiceSectionDefaultRow(coordinator: TableViewCoordinator) -> Row<DefaultTableViewCell>
     {
@@ -115,7 +115,7 @@ extension TableViewSectionFactory
 }
 
 // MARK: - Specific Cell Sections
-extension TableViewSectionFactory
+extension SectionFactory
 {
     private func defaultSections() -> [Section]
     {

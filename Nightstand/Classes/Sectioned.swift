@@ -7,12 +7,12 @@
 
 import Foundation
 
-public protocol SectionedTableViewController
+public protocol Sectioned
 {
     var sections: [Section] { get }
 }
 
-public extension SectionedTableViewController where Self: UITableViewDataSource
+public extension Sectioned
 {
     func numberOfSections() -> Int
     {
@@ -35,7 +35,7 @@ public extension SectionedTableViewController where Self: UITableViewDataSource
     }
 }
 
-public extension SectionedTableViewController where Self: UITableViewDelegate
+public extension Sectioned
 {
     func didSelectRow(at indexPath: IndexPath)
     {
