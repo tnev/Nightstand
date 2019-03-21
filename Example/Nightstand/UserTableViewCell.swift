@@ -43,14 +43,14 @@ extension UserTableViewCell
         stackView.alignment = .center
         
         contentView.addSubview(stackView)
+        contentView.layoutMargins = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
         stackView.translatesAutoresizingMaskIntoConstraints = false
         
         NSLayoutConstraint.activate([
-            stackView.leftAnchor.constraint(equalTo: contentView.leftAnchor),
-            stackView.rightAnchor.constraint(equalTo: contentView.rightAnchor),
-            stackView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor),
-            stackView.topAnchor.constraint(equalTo: contentView.topAnchor),
-            stackView.heightAnchor.constraint(greaterThanOrEqualToConstant: 44)
+            stackView.leftAnchor.constraint(equalTo: contentView.layoutMarginsGuide.leftAnchor),
+            stackView.rightAnchor.constraint(equalTo: contentView.layoutMarginsGuide.rightAnchor),
+            stackView.bottomAnchor.constraint(equalTo: contentView.layoutMarginsGuide.bottomAnchor),
+            stackView.topAnchor.constraint(equalTo: contentView.layoutMarginsGuide.topAnchor)
             ])
     }
 }
