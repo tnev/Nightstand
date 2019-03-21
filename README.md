@@ -1,11 +1,10 @@
-# UNDER CONSTRUCTION: Nightstand will be documented and ready for use very soon
-
 # Nightstand
 
 [![CI Status](https://img.shields.io/travis/tnev/Nightstand.svg?style=flat)](https://travis-ci.org/tnev/Nightstand)
 [![Version](https://img.shields.io/cocoapods/v/Nightstand.svg?style=flat)](https://cocoapods.org/pods/Nightstand)
 [![License](https://img.shields.io/cocoapods/l/Nightstand.svg?style=flat)](https://cocoapods.org/pods/Nightstand)
 [![Platform](https://img.shields.io/cocoapods/p/Nightstand.svg?style=flat)](https://cocoapods.org/pods/Nightstand)
+![Swift Version](https://img.shields.io/badge/swift-4.2-orange.svg)
 
 ## What is it?
 Nightstand is a convenient way to construct static table views for iOS. It removes the need to implement delegate and datasource methods; just construct your rows and sections, and configure them how you please. Nightstand takes care of the rest. Nightstand allows you use built-in cell types, or custom cell types. You can also use your existing UIViewControllers or UITableViewControllers just by having them conform to the necessary protocol.
@@ -20,10 +19,10 @@ Nightstand’s **Row** type represents a single row within a section. A **Row** 
 
 A **Row** has a **Model**, some **Actions**, and a **Configuration**.
 * A row’s **Model** defines the data that the row will use to populate its views.
-	* For example, a **Default** row’s **Model** consists of text and an optional image.
+  * For example, a **Default** row’s **Model** consists of text and an optional image.
 * A row’s **Actions** define what happens when it is selected or (optionally) when its accessory view is selected.
 * A row’s **Configuration** defines its style.
-	* This is where you can set attributes such as selection type, accessory type, and more.
+  * This is where you can set attributes such as selection type, accessory type, and more.
 
 Nightstand’s **Section** type represents a single section within a table. A **Section** contains a collection of **Row**s and some optional configuration properties.
 
@@ -36,20 +35,17 @@ it, simply add the following line to your Podfile:
 pod 'Nightstand'
 ```
 
-* Once you’ve defined your **Row**s and **Section**s, you just have to make sure the controller that contains your table view conforms to the **Sectioned** protocol.
-	* This is a protocol that requires the conforming class to have an Array of **Sections**s
-* Now, just call the default **Sectioned** functions in any of the UITableViewDelegate/DataSource methods that you wish to implement and Nightstand will handle the rest.
-* If you're having any trouble, or prefer to just see the code, please refer to the example project.
+Once you’ve defined your **Row**s and **Section**s, you just have to make sure the controller that contains your table view conforms to the **Sectioned** protocol. This is a protocol that requires the conforming class to have an Array of **Section**s
+  
+Now, just call the default **Sectioned** functions in any of the UITableViewDelegate/DataSource methods that you wish to implement and Nightstand will handle the rest.
+
+If you're having any trouble, or prefer to just see the code, please refer to the example project. To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## How can I report an issue?
-* Please report any issues using GitHub Issues
+Please report any issues using GitHub Issues
 
 ## How can I contribute?
-* Please open a Pull Request for any minor fixes or contributions. For any major contributions or ideas, feel free to contact me or open an issue and I'd be happy to discuss it with you.
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Please open a Pull Request for any minor fixes or contributions. For any major contributions or ideas, feel free to contact me or open an issue and I'd be happy to discuss it with you.
 
 ## Author
 
