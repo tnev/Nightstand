@@ -26,12 +26,7 @@ Nightstand’s **Section** type represents a single section within a table. A **
 
 ## How can I use it?
 
-Nightstand is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'Nightstand'
-```
+### Cocoapods and Carthage support are under development and will be available very soon!
 
 Once you’ve defined your **Row**s and **Section**s, you just have to make sure the controller that contains your table view conforms to the **Sectioned** protocol. This is a protocol that requires the conforming class to have an Array of **Section**s
   
