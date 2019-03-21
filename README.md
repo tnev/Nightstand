@@ -1,4 +1,5 @@
-# Nightstand
+![Logo](Nightstand-Logo.png)
+
 
 [![Version](https://img.shields.io/cocoapods/v/Nightstand.svg?style=flat)](https://cocoapods.org/pods/Nightstand)
 [![License](https://img.shields.io/cocoapods/l/Nightstand.svg?style=flat)](https://cocoapods.org/pods/Nightstand)
