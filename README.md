@@ -3,7 +3,7 @@
 
 [![Version](https://img.shields.io/cocoapods/v/Nightstand.svg?style=flat)](https://cocoapods.org/pods/Nightstand)
 [![Platform](https://img.shields.io/cocoapods/p/Nightstand.svg?style=flat)](https://cocoapods.org/pods/Nightstand)
-![Swift Version](https://img.shields.io/badge/swift-4.2-orange.svg)
+![Swift Version](https://img.shields.io/badge/swift-5.0-orange.svg)
 
 ## What is it?
 Nightstand is a fully customizable and convenient way to construct static table views for iOS. It removes the need to implement delegate and datasource methods; just construct your rows and sections, and configure them how you please. Nightstand takes care of the rest.
