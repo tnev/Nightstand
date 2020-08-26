@@ -11,7 +11,7 @@ DEPENDENCIES:
   - Nightstand (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - iOSSnapshotTestCase
 
 EXTERNAL SOURCES:
@@ -20,8 +20,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   iOSSnapshotTestCase: 2d51aa06775e95cecb0a1fb9c5c159ccd1dd4596
-  Nightstand: fd95f1f9cf61682ff43f636d523923b7171ef909
+  Nightstand: edce14e7c29f9e4d2ab27754560eafe7900f899c
 
 PODFILE CHECKSUM: adef2dd20cfd3478584f70ea3e4334f898d55e65
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.4

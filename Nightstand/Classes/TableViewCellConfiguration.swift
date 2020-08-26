@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// An encapsulation of the style configuration options of a UITableViewCell
 public struct TableViewCellConfiguration
 {
     public var selectionStyle: UITableViewCell.SelectionStyle

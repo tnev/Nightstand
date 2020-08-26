@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Actions that can be taken on a UITableViewCell
 public struct TableViewCellActions
 {
     let didSelectCell: (() -> Void)

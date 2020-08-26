@@ -7,511 +7,545 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		030A3043A5A39F45725BA123B9DFA9BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */; };
-		03D9FA1D368DE04CBC17735D036CB0AC /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 705BA72351A95278B19D57FBFD089DFC /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		070F12572239B34E1D2095A81B90354B /* Sectioned.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A04727D4944615B9FBD65C0BA4417D /* Sectioned.swift */; };
-		0BFEB83762334C6357E3EE90097D4388 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = B63A46EB407C0A5960C6AA0C29BA2CEE /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C815AEFC5B5D9A20A0A1068391BEBD5 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666143DB80EDFEE6662EBCB88833411F /* UITableView.swift */; };
-		17C15CA8141A56B8E5954BA9FB90D03D /* Pods-Nightstand_UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82AB04B136DB3947FA6B79C6E43640DE /* Pods-Nightstand_UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17E51AFDFDBA721468B3B487578152C4 /* iOSSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89070A2463D1516D5C708094BE3C54C8 /* iOSSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1DDB1F5FA2D7A6B6199DBDA136460EC3 /* Pods-Nightstand_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F1E93050CA41216219FB7F09B63A8 /* Pods-Nightstand_Tests-dummy.m */; };
-		23E88B8E9B32FA9DF3C2E94FEA5E76B9 /* Pods-Nightstand_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E3CF870E80D438753F2F2EC646C0D88 /* Pods-Nightstand_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		255991CE0E9BE369DDB074CFB07DC2F4 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = DF36DAF810A4891871D88EC736F16A7D /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		28A7BD7EB950A9B9E90C0733EDA5DB21 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6462F24C3105950F66A5DF1F0A12E98B /* FBSnapshotTestCase.m */; };
-		32C70F4E43D4EAF4DEB2839944E67C0E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = CA462AF44B6E1F01BC448A33FBA48F04 /* UIImage+Compare.m */; };
-		38423C6F928999BB910C104B4E5BDDFD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2379EEB1B2E42B0DADE15CB60E65F85 /* QuartzCore.framework */; };
-		394C03718B9A6648B9E8933E6B076760 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */; };
-		3A6E46D19D2B128E6303279CBAA487E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */; };
-		42C12046999900AE237432B32DE02708 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD72CFD979F343D37CB387971F514B01 /* FBSnapshotTestController.m */; };
-		46365AA355734F0DF4A96C8A42F2272E /* TableViewCellActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42436805809F8A42F8386DB0B1EF90A9 /* TableViewCellActions.swift */; };
-		470AC1A70777270E1E57593681E76CAA /* CellProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91D42C741FCD1346D02E9D0D5D04CCF /* CellProvider.swift */; };
-		4AFBE00E7E2F75FD661ABBF91485C99A /* Nightstand-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 121EB7A04CB90AE5573C4C4E4DE6C023 /* Nightstand-dummy.m */; };
-		531B110C6B0B9E83FFC106D88183BA08 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 387A6D96DB403759A67B281B55AE83D4 /* FBSnapshotTestCasePlatform.m */; };
-		5A0CD87A3ED90370FBE9C2D34D28B831 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FA93DD32367181582259A0BF4AF2C0D7 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E374B53D46C4ECE6008210840E32394 /* TableViewCellConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19867C6DC6853E4C079EDC694510C6 /* TableViewCellConfiguration.swift */; };
-		6F1A702B0EE9DFC86659638CF80C77F4 /* Nightstand-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26196519C8C91856BD1E8F4C6FE89121 /* Nightstand-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70F6E827ACC0B5A920E17B21D71CAE66 /* Pods-Nightstand_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9BDBA3AB5858BC6C4400A9018B4912 /* Pods-Nightstand_Example-dummy.m */; };
-		7BD69CF0B93C3483421380808517B5EC /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08A948F120F6D1F68E027A225DCB78F /* ReusableView.swift */; };
-		844EDCE06A5F272C8BE0C994DAA5F2EB /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE05CEDCC94943B72EF7FED9A71E3337 /* SwiftSupport.swift */; };
-		8870BC9F9C56A6408787328870B33A3B /* DefaultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93112DC4AE11B9B3DA5FE48343E9891C /* DefaultTableViewCell.swift */; };
-		8DD949008257CE640EE411DC5207A26D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = D16195EDEF3FA143C0A303E63E0BCD18 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		9166D59398787042CC9EABE16A841F31 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22244E57DB64717A78005002646F51C8 /* Row.swift */; };
-		988CE191249034461B77C6B0DB40C77C /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = D94F7F72C0A8169FAEC9850E79D05F93 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AA86C78E1D2ADCF49306F75A8DC671E /* Value2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B69343AF30087FAF583A86E7BA21CA /* Value2TableViewCell.swift */; };
-		A8EDC2DEE73A098FB4014E0919493D7E /* Pods-Nightstand_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30300DDBF37E2CB5AF01B7E79F164CBD /* Pods-Nightstand_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC6A33C93C6A45A72E41CDF4ABE899B1 /* iOSSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA60CC2C7533A015EC4DDBE05AEB868 /* iOSSnapshotTestCase-dummy.m */; };
-		ACE4489416B9B935C985740F8DEA2321 /* SubtitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666B93146239DFA07DB8AB9F37C127C4 /* SubtitleTableViewCell.swift */; };
-		AD5D759A5CE47EF38847CE06E23BA694 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = B27E856B69CEA127575B3CE2F297224F /* UIImage+Snapshot.m */; };
-		BCAD247DA61657AE9437C6CF60E3E207 /* Value1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917D392BECD2BA3F37986ABC77D171CE /* Value1TableViewCell.swift */; };
-		BF810A29CE8AD3CA3EE3767D45BE5BA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */; };
-		C54145BF50C86788D20B8FFBFD01A8CB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCF8FB06D0D8E2640C57D460AB67AF6 /* XCTest.framework */; };
-		D2FC9C33C199D08CA7E931F10BDA0637 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230E8B9EF4ED2F7330EEF1747D9E998A /* Section.swift */; };
-		D5B3898E11ECA2EB03B18ACE5A0C3A5E /* Pods-Nightstand_UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B99CF342CA89041759F5863BE1FCF06 /* Pods-Nightstand_UITests-dummy.m */; };
-		EF02CD923D0E06F3252E17670677E562 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C4C6CE88E0BBD057DA48DDBD9EF09D /* Configurable.swift */; };
-		F7B2DB84BE0344D0899FA5165A5670B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B206F681A10A3CEFD3120DC6A65DCE /* UIKit.framework */; };
-		FD5345BA620698C24F2AF1275EB7B3BE /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = C23E2EEB5492EDEF09E04FA32A1CCC45 /* UIImage+Diff.m */; };
-		FE7E604D7DC993062746EE8AFF8E6E31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */; };
+		00757F651D47BD6C020F34D244B425B8 /* Nightstand-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3C67E89CA7D26A1BBA98E8FB1B09A8 /* Nightstand-dummy.m */; };
+		0212AACD9CCB9A6A548049F114F73744 /* Pods-Nightstand_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD2428F93C1BC617944640DF303CA00D /* Pods-Nightstand_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09F3021D3323D0B64812EE10886827AB /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EE0D8468132004B33C282270003A158 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		115B9F2A343D1880D138F41B9491C125 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		122F61784A56796A2CD7B2CD201C5525 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2628B40D6A150C1ADD3875C92B9792 /* FBSnapshotTestController.m */; };
+		157181ACB873BD0842D753A154B76BAA /* Pods-Nightstand_UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95EB62356F700AD52AC4416C16B0807A /* Pods-Nightstand_UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E6DF9FBCD7B88DCF9D2747D4F9B90C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		23C7638975B7288F5F514C0FD1830C7E /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F5D23833B7C650DB2B9B5EA95B43F7 /* UIImage+Snapshot.m */; };
+		2643963F8600F16366AF89ABF6D91F82 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = F98662B97F340866723F7EA90CF3D26C /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2E5E25BD193B7251A0119F64A98A975E /* Value2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2757F6FB4105299B8FABBF3B40B921 /* Value2TableViewCell.swift */; };
+		34BC0C923E215ED7C27CC562A79BA909 /* CellProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA5AE5C8A3E5B9A236D4DA0A0687EBA /* CellProvider.swift */; };
+		35228AF4B8A736708A84BFB364A9838C /* SubtitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AA2713DA8E8DA2BF99C8DC62333560 /* SubtitleTableViewCell.swift */; };
+		3B540469AF7772C156A3AD0CC6184734 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BF0D8E3529AAF9DD2F8B3378FD89216 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BB90BFA17D1FC15E455527FDD5D875D /* Pods-Nightstand_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B29DB1E18B96E61D52984234A378786D /* Pods-Nightstand_Tests-dummy.m */; };
+		3CB1AEA2F55899D4732F163AD8311249 /* DefaultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902CD61665824F5D2D1C30EE7653A1CC /* DefaultTableViewCell.swift */; };
+		3CE95FD1D722818A524677118DF557BA /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EBD54FBC707C522306409616608E03F7 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4C6EEDAD2980F21361E123D4EA97FE52 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432D328D5B1788520371534F0EC9AA67 /* SwiftSupport.swift */; };
+		4D88D1D4B6DA13E10CB05B3146C04464 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 078903AE75C1D7D5C61C8DE620D53A5A /* UIImage+Diff.m */; };
+		4EE88284D5DA3C698D0FB28C3CB1530F /* UITableView+CellReuse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BC8BB611CF76E431D907BCF2526DA4 /* UITableView+CellReuse.swift */; };
+		65214E7EBDC81BF35278B5CDB4B74D00 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7391D4ABFE30A1D403994767E37FA920 /* ReusableView.swift */; };
+		6543CE32DD97E4F24919522FE4E79A94 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = DC37D45B91EAA34C1B307819F4FBFA48 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		684682A02A963349E4BF6D2DF2FE231F /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5860A7B578249274B8F0E70EFAB55E /* Section.swift */; };
+		692F722B358241A1104C62FB68914F10 /* Nightstand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117883AD5A74250A1CA17996C7F44ECB /* Nightstand.swift */; };
+		6F8A1AF3335E2A7AB0D85308FC514E20 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7AD7BE903891D3FD2F0EE7D7ECCDD1 /* Configurable.swift */; };
+		719D90E44BCD4D95006C00E56BA79209 /* Pods-Nightstand_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF3603984D7DA1DF3221A394D8D36D5E /* Pods-Nightstand_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77BDB25A3304BA7D152C00F886CAAA32 /* TableViewCellActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E9D21554BB4A4FBA75A8472D4A7342 /* TableViewCellActions.swift */; };
+		796D4CB4F4AB8ECBBD931B099A74E833 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BFB7DE40547F6148458C28227213A42 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82CE8E0DC98452F08E1A03D3CA91B763 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
+		855A2483D9B80B1142426C9C97B663E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		86BC25FD2CC085B17A374500C747062D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
+		968B5318A745263F0D3A72023217CD12 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
+		ADB22FF1839799DDCAD2FA504BD802DF /* Pods-Nightstand_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A936C88C685DD2A6C7AD565A6488CE /* Pods-Nightstand_Example-dummy.m */; };
+		B6A9C62A5262C0767EF3B8C78D6FAA7D /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3E11CFF525A7BE0F5090E39A8A725C /* FBSnapshotTestCasePlatform.m */; };
+		B7B7D2423E3D7807CC41A08579967279 /* Nightstand-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5693187CC20A5C476658E8A8F8FA8454 /* Nightstand-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C930BCB1B395E19ABBE9D4D491867353 /* iOSSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58F4181C8833BE6DB86CDA8C805A00A9 /* iOSSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC601FFF8A6871C899F565AB6AB01D47 /* Value1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C065D6672B6610393B52DEFBFE6E1 /* Value1TableViewCell.swift */; };
+		DF067743DBB9CBEF42193CC349FCC65E /* iOSSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 796F28118D863DD7DDE14D1F6AC3DC9C /* iOSSnapshotTestCase-dummy.m */; };
+		E011A607387241276369F9BEEE33DA62 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 523B65C5434BF857787C7B495D48070A /* FBSnapshotTestCase.m */; };
+		E0AEDC3FACFC674C8704AE88681164AD /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EB07CC184E97597B5EF96293FD8D6775 /* UIImage+Compare.m */; };
+		E1ABBFF437CEEDAB360BD05C321BE83B /* Pods-Nightstand_UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BE4F0C915FE9FE065BA9BE22A345BC /* Pods-Nightstand_UITests-dummy.m */; };
+		E70D844BBE3B918AED822D276CFCCCEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		EA9F582617150D9D0060CF5ED590E69D /* TableViewCellConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729B73657EDD107CBEAD9A400C3BFE35 /* TableViewCellConfiguration.swift */; };
+		F734FC7B821341ED468AAF4ED4F5C246 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		FBBCACF2424606C6CAB4D3DE276EB925 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12DBB35F74D83F301AFD1CFD3AEC7AF /* Row.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0A8C0A48B1F8E8C31E55C3E2CEDC2AC5 /* PBXContainerItemProxy */ = {
+		049864E9296A30EBD5709E90D504D706 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CCB670195D5BD218E1661BC4890D70E2;
-			remoteInfo = iOSSnapshotTestCase;
-		};
-		0D034ADD5512F5DF9187808842823762 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2EA162F5AF5B4899D7494F0126B14A76;
-			remoteInfo = "Pods-Nightstand_Example";
-		};
-		BE92BC1BF5EACB4CF4CFC9F0597ECA51 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 12C267040535F32F1DD276A244C5A127;
+			remoteGlobalIDString = 9D1E373392E52624812E0FF0458E9C47;
 			remoteInfo = Nightstand;
 		};
-		FB924259DAB653B056CDE5D705295B13 /* PBXContainerItemProxy */ = {
+		0AB63F7EF314BFD13F9AA8BFAE721031 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CCB670195D5BD218E1661BC4890D70E2;
+			remoteGlobalIDString = C393038B0BEF088C1B93E6528005862D;
 			remoteInfo = iOSSnapshotTestCase;
 		};
-		FD013FF9DD87FC9647EB064EA794B636 /* PBXContainerItemProxy */ = {
+		3228FFCDB5083D265B28F6219DAE9B54 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2EA162F5AF5B4899D7494F0126B14A76;
+			remoteGlobalIDString = C393038B0BEF088C1B93E6528005862D;
+			remoteInfo = iOSSnapshotTestCase;
+		};
+		93BEEDADA6B4D4B66CD4FC8795FA8BCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84840D84B2B69DBAB3B2E8CBB55A6A18;
+			remoteInfo = "Pods-Nightstand_Example";
+		};
+		9705FFD026E4F354D4FCC1DDACAA43A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84840D84B2B69DBAB3B2E8CBB55A6A18;
 			remoteInfo = "Pods-Nightstand_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01D529A08FC6BB1D28DF1C4EBFDC885B /* Pods-Nightstand_UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Nightstand_UITests.modulemap"; sourceTree = "<group>"; };
-		096F256196ED015F65789380DEAF266B /* Pods-Nightstand_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Nightstand_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		10C4C6CE88E0BBD057DA48DDBD9EF09D /* Configurable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configurable.swift; path = Nightstand/Classes/Configurable.swift; sourceTree = "<group>"; };
-		121EB7A04CB90AE5573C4C4E4DE6C023 /* Nightstand-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nightstand-dummy.m"; sourceTree = "<group>"; };
-		181F1E93050CA41216219FB7F09B63A8 /* Pods-Nightstand_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Nightstand_Tests-dummy.m"; sourceTree = "<group>"; };
-		1982CBDD76E85FE33329446448B1954E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22244E57DB64717A78005002646F51C8 /* Row.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Row.swift; path = Nightstand/Classes/Row.swift; sourceTree = "<group>"; };
-		230E8B9EF4ED2F7330EEF1747D9E998A /* Section.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Section.swift; path = Nightstand/Classes/Section.swift; sourceTree = "<group>"; };
-		26196519C8C91856BD1E8F4C6FE89121 /* Nightstand-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nightstand-umbrella.h"; sourceTree = "<group>"; };
-		2A448B7C3DBD4808B8176138956ECAA6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C63C0C7F688CDD35123248B1F52389E /* Pods_Nightstand_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nightstand_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		30300DDBF37E2CB5AF01B7E79F164CBD /* Pods-Nightstand_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Nightstand_Tests-umbrella.h"; sourceTree = "<group>"; };
-		325800566A37FF1D29EAB1217E52E234 /* Pods_Nightstand_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nightstand_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		35DB996025779EC620E4988717F3D9CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		37B206F681A10A3CEFD3120DC6A65DCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		387A6D96DB403759A67B281B55AE83D4 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		3B99CF342CA89041759F5863BE1FCF06 /* Pods-Nightstand_UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Nightstand_UITests-dummy.m"; sourceTree = "<group>"; };
-		3BA60CC2C7533A015EC4DDBE05AEB868 /* iOSSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		3F0469A6599052A959B5BC6678F21386 /* Pods-Nightstand_UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Nightstand_UITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		403245D03D40DC467E10FE681D92F7DC /* Pods-Nightstand_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nightstand_Tests-resources.sh"; sourceTree = "<group>"; };
-		42436805809F8A42F8386DB0B1EF90A9 /* TableViewCellActions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewCellActions.swift; path = Nightstand/Classes/TableViewCellActions.swift; sourceTree = "<group>"; };
-		432750590F8ED00C325BC9D4337BC364 /* Pods-Nightstand_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nightstand_Example-resources.sh"; sourceTree = "<group>"; };
-		440611F70F4A493E10F0BD8A5873F3EB /* Nightstand.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nightstand.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		49B69343AF30087FAF583A86E7BA21CA /* Value2TableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Value2TableViewCell.swift; sourceTree = "<group>"; };
-		4C87E049AF21777500D704E48625BF21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4CCF8FB06D0D8E2640C57D460AB67AF6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		52D6FC45DD70362CB1B9EB1A99EF3671 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57A5B4A98038947FEAA8F96E36097F11 /* Nightstand-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nightstand-prefix.pch"; sourceTree = "<group>"; };
-		58FBBB6C0A302210ACF8F270AEC44B92 /* iOSSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iOSSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		5B7C606401D16342CE5E3EFF386309A2 /* Pods-Nightstand_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nightstand_Example-frameworks.sh"; sourceTree = "<group>"; };
-		62A04727D4944615B9FBD65C0BA4417D /* Sectioned.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sectioned.swift; path = Nightstand/Classes/Sectioned.swift; sourceTree = "<group>"; };
-		6462F24C3105950F66A5DF1F0A12E98B /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		666143DB80EDFEE6662EBCB88833411F /* UITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableView.swift; path = Nightstand/Classes/UITableView.swift; sourceTree = "<group>"; };
-		666B93146239DFA07DB8AB9F37C127C4 /* SubtitleTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SubtitleTableViewCell.swift; sourceTree = "<group>"; };
-		6E3B49682C6C3CD03589074C90E939E3 /* Pods-Nightstand_UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nightstand_UITests-frameworks.sh"; sourceTree = "<group>"; };
-		6EA1FDAA82CBA49E3421E9628802D825 /* Pods-Nightstand_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nightstand_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		705BA72351A95278B19D57FBFD089DFC /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		7E0729F6BE148667A6B27D64C03A150D /* Pods-Nightstand_UITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nightstand_UITests-resources.sh"; sourceTree = "<group>"; };
-		8196297279DE70A3CAB5620161D2F204 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		82AB04B136DB3947FA6B79C6E43640DE /* Pods-Nightstand_UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Nightstand_UITests-umbrella.h"; sourceTree = "<group>"; };
-		87AEC5E467590DA1EE13DDD7A060F23C /* Pods-Nightstand_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Nightstand_Example.modulemap"; sourceTree = "<group>"; };
-		89070A2463D1516D5C708094BE3C54C8 /* iOSSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		8E3CF870E80D438753F2F2EC646C0D88 /* Pods-Nightstand_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Nightstand_Example-umbrella.h"; sourceTree = "<group>"; };
-		8F9BDBA3AB5858BC6C4400A9018B4912 /* Pods-Nightstand_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Nightstand_Example-dummy.m"; sourceTree = "<group>"; };
-		917D392BECD2BA3F37986ABC77D171CE /* Value1TableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Value1TableViewCell.swift; sourceTree = "<group>"; };
-		93112DC4AE11B9B3DA5FE48343E9891C /* DefaultTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultTableViewCell.swift; sourceTree = "<group>"; };
-		93670D7CE0AAB5D52982E8F64CF9502D /* Pods-Nightstand_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nightstand_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96126E452C7A09613DFDE90CCF83EA1B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		987A853FAC37482B3D7E12F7A11B1A4C /* Nightstand.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Nightstand.modulemap; sourceTree = "<group>"; };
-		9B2A19A1ACCCEDDCCC2010EA6F0F9190 /* Pods-Nightstand_UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nightstand_UITests.release.xcconfig"; sourceTree = "<group>"; };
-		9BB8D8D8A301448760E169437F01275E /* Pods-Nightstand_UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nightstand_UITests.debug.xcconfig"; sourceTree = "<group>"; };
-		AA19867C6DC6853E4C079EDC694510C6 /* TableViewCellConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewCellConfiguration.swift; path = Nightstand/Classes/TableViewCellConfiguration.swift; sourceTree = "<group>"; };
-		AFA439DD10844BA2231A578C61FC7C0E /* Pods-Nightstand_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nightstand_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B27E856B69CEA127575B3CE2F297224F /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		B63A46EB407C0A5960C6AA0C29BA2CEE /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		C08A948F120F6D1F68E027A225DCB78F /* ReusableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReusableView.swift; path = Nightstand/Classes/ReusableView.swift; sourceTree = "<group>"; };
-		C2379EEB1B2E42B0DADE15CB60E65F85 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		C23E2EEB5492EDEF09E04FA32A1CCC45 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		C46CD0DA634ED5348914C566F727BC39 /* Pods-Nightstand_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Nightstand_Tests.modulemap"; sourceTree = "<group>"; };
-		CA462AF44B6E1F01BC448A33FBA48F04 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		CD72CFD979F343D37CB387971F514B01 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		CE05CEDCC94943B72EF7FED9A71E3337 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		D16195EDEF3FA143C0A303E63E0BCD18 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		D2CEBA56EB0A340B33B869D051B872E7 /* Pods_Nightstand_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nightstand_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D365339E71ED3AD28196CD471A8425A0 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D614CB0EF4779DF1BD02004A2A9BFD59 /* Pods-Nightstand_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Nightstand_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D711D25C5AEA78C8768D3638981E95B3 /* Nightstand.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Nightstand.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D94F7F72C0A8169FAEC9850E79D05F93 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		DAD0D69798BF5F1AF6106C11F92A6BD7 /* iOSSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		DDE403B99309079E3660AC4DD0D3BCC8 /* Pods-Nightstand_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nightstand_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		DF36DAF810A4891871D88EC736F16A7D /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		E5473B4A9757EE92ECFFFAB3149CC858 /* Pods-Nightstand_UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Nightstand_UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E91D42C741FCD1346D02E9D0D5D04CCF /* CellProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellProvider.swift; path = Nightstand/Classes/CellProvider.swift; sourceTree = "<group>"; };
-		E9ED9FA377C866AAAF6FADC74F4AF927 /* Nightstand.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nightstand.xcconfig; sourceTree = "<group>"; };
-		F4B2CFF5FC05958511806BE1C9047373 /* Pods-Nightstand_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nightstand_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F5CB76A89B191053E13678ECB2B0ACE6 /* Pods-Nightstand_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Nightstand_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F7CD053797353C13EB3F9DB7D78DA2C0 /* iOSSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		F806163CBD9193406B67969E21010DDB /* Pods-Nightstand_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Nightstand_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FA93DD32367181582259A0BF4AF2C0D7 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		0404B0D9A13FDA1936F92DA7B2437494 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		06BC8BB611CF76E431D907BCF2526DA4 /* UITableView+CellReuse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+CellReuse.swift"; path = "Nightstand/Classes/UITableView+CellReuse.swift"; sourceTree = "<group>"; };
+		078903AE75C1D7D5C61C8DE620D53A5A /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		0A5860A7B578249274B8F0E70EFAB55E /* Section.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Section.swift; path = Nightstand/Classes/Section.swift; sourceTree = "<group>"; };
+		0BFB7DE40547F6148458C28227213A42 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		0E7AD7BE903891D3FD2F0EE7D7ECCDD1 /* Configurable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configurable.swift; path = Nightstand/Classes/Configurable.swift; sourceTree = "<group>"; };
+		0F2628B40D6A150C1ADD3875C92B9792 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		117883AD5A74250A1CA17996C7F44ECB /* Nightstand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Nightstand.swift; path = Nightstand/Classes/Nightstand.swift; sourceTree = "<group>"; };
+		1443D123659E76C1C6326236AA9C55FF /* Pods-Nightstand_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Nightstand_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1863678A7298B8791BFBDD8897E5BD93 /* Pods-Nightstand_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nightstand_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2EE0D8468132004B33C282270003A158 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		34D2873C2DCF4EE00C1CDCEF90881FA4 /* Pods-Nightstand_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nightstand_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		359A783870F2585EC846EE9E1AB5D1AA /* Pods-Nightstand_UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Nightstand_UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3BF0D8E3529AAF9DD2F8B3378FD89216 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		3DCCFBE6AA2BB3D30140DB3B022865A6 /* Nightstand-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Nightstand-Info.plist"; sourceTree = "<group>"; };
+		3E3DA428FC65C59B3986E920EE564544 /* Pods-Nightstand_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Nightstand_Tests-Info.plist"; sourceTree = "<group>"; };
+		432D328D5B1788520371534F0EC9AA67 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		43A936C88C685DD2A6C7AD565A6488CE /* Pods-Nightstand_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Nightstand_Example-dummy.m"; sourceTree = "<group>"; };
+		45BE4F0C915FE9FE065BA9BE22A345BC /* Pods-Nightstand_UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Nightstand_UITests-dummy.m"; sourceTree = "<group>"; };
+		4C76C7BD2BB05BFE85A81BB2FA49D769 /* Pods-Nightstand_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Nightstand_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5069A3FAA385B1F702DF6F5C83461EF2 /* iOSSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		523B65C5434BF857787C7B495D48070A /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		5693187CC20A5C476658E8A8F8FA8454 /* Nightstand-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nightstand-umbrella.h"; sourceTree = "<group>"; };
+		58F4181C8833BE6DB86CDA8C805A00A9 /* iOSSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		5989FD501CD421DD0FDFCE8D16A79E78 /* Pods-Nightstand_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nightstand_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5A4C065D6672B6610393B52DEFBFE6E1 /* Value1TableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Value1TableViewCell.swift; sourceTree = "<group>"; };
+		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		61160AE7D897E8C6DB03EAE9B588A78B /* Nightstand.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Nightstand.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		64860ED4D1469506201CA2ECB2F54AF9 /* iOSSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iOSSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		68FFD9E54CB47EA177B2B070F86C10B1 /* Pods-Nightstand_UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Nightstand_UITests.modulemap"; sourceTree = "<group>"; };
+		69AF571B8CEDD16F30210B8E91D2EC0A /* Pods-Nightstand_UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nightstand_UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A66E654D1DFE03B6054026156867708 /* Pods-Nightstand_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nightstand_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6FA5AE5C8A3E5B9A236D4DA0A0687EBA /* CellProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellProvider.swift; path = Nightstand/Classes/CellProvider.swift; sourceTree = "<group>"; };
+		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		71AA2713DA8E8DA2BF99C8DC62333560 /* SubtitleTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SubtitleTableViewCell.swift; sourceTree = "<group>"; };
+		729B73657EDD107CBEAD9A400C3BFE35 /* TableViewCellConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewCellConfiguration.swift; path = Nightstand/Classes/TableViewCellConfiguration.swift; sourceTree = "<group>"; };
+		7391D4ABFE30A1D403994767E37FA920 /* ReusableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReusableView.swift; path = Nightstand/Classes/ReusableView.swift; sourceTree = "<group>"; };
+		796F28118D863DD7DDE14D1F6AC3DC9C /* iOSSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C06E6925F67D1901E61FEB6747CB217 /* Pods-Nightstand_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Nightstand_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		80C33F483A5A167F2A61A745DE588A6C /* Pods_Nightstand_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Nightstand_Example.framework; path = "Pods-Nightstand_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83803D7C6E0E690003686AF32DD25837 /* Pods_Nightstand_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Nightstand_Tests.framework; path = "Pods-Nightstand_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85F5D23833B7C650DB2B9B5EA95B43F7 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		86D51496D8BC75D4F37C31AC7EDAD7E3 /* Pods-Nightstand_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Nightstand_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		900C95C1DE73EA90A623D23D95C912B0 /* iOSSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iOSSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		902CD61665824F5D2D1C30EE7653A1CC /* DefaultTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultTableViewCell.swift; sourceTree = "<group>"; };
+		95EB62356F700AD52AC4416C16B0807A /* Pods-Nightstand_UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Nightstand_UITests-umbrella.h"; sourceTree = "<group>"; };
+		97E9D21554BB4A4FBA75A8472D4A7342 /* TableViewCellActions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewCellActions.swift; path = Nightstand/Classes/TableViewCellActions.swift; sourceTree = "<group>"; };
+		988BE7528CD283815FFC54CD867B1CAC /* Pods-Nightstand_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nightstand_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9B07E286ACF8542D4E5B0911A2AA87E8 /* Pods-Nightstand_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Nightstand_Tests.modulemap"; sourceTree = "<group>"; };
+		9B180C2B69D5D379083A2F860ADEE94B /* Pods-Nightstand_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Nightstand_Example.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A00417C2178CE1E5700730ED80D9ED33 /* Pods_Nightstand_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Nightstand_UITests.framework; path = "Pods-Nightstand_UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9532276ED1E42ED64568246A869BCCB /* Pods-Nightstand_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Nightstand_Example-Info.plist"; sourceTree = "<group>"; };
+		AC3C67E89CA7D26A1BBA98E8FB1B09A8 /* Nightstand-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nightstand-dummy.m"; sourceTree = "<group>"; };
+		AD2428F93C1BC617944640DF303CA00D /* Pods-Nightstand_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Nightstand_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B29DB1E18B96E61D52984234A378786D /* Pods-Nightstand_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Nightstand_Tests-dummy.m"; sourceTree = "<group>"; };
+		B75A47899E602A5CA9E833F7D136622D /* iOSSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		B91B00F8BE943329D633234BD67AE0AC /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = iOSSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC42E6B80F6E28CD662661E2A5CA72FD /* Pods-Nightstand_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nightstand_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD3E11CFF525A7BE0F5090E39A8A725C /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		BF3603984D7DA1DF3221A394D8D36D5E /* Pods-Nightstand_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Nightstand_Example-umbrella.h"; sourceTree = "<group>"; };
+		C12DBB35F74D83F301AFD1CFD3AEC7AF /* Row.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Row.swift; path = Nightstand/Classes/Row.swift; sourceTree = "<group>"; };
+		C83319224AA748BBE23CA65420450EB8 /* Nightstand.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nightstand.framework; path = Nightstand.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE23DC1B196C2222F1F884C1EFEC193 /* Nightstand-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nightstand-prefix.pch"; sourceTree = "<group>"; };
+		D4E67365147EF395A7F2EBA34A658346 /* Pods-Nightstand_UITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Nightstand_UITests-Info.plist"; sourceTree = "<group>"; };
+		D93C01D8BFF80189B9F3360C7C9F1C30 /* Pods-Nightstand_UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nightstand_UITests.release.xcconfig"; sourceTree = "<group>"; };
+		DC37D45B91EAA34C1B307819F4FBFA48 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		DFC0EB0EE9B789B26B7250A4229FCBF8 /* Nightstand.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nightstand.xcconfig; sourceTree = "<group>"; };
+		EB07CC184E97597B5EF96293FD8D6775 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		EBD54FBC707C522306409616608E03F7 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		EC2757F6FB4105299B8FABBF3B40B921 /* Value2TableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Value2TableViewCell.swift; sourceTree = "<group>"; };
+		ECB6C06127861CF91A7AD52A80D1777A /* Nightstand.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Nightstand.modulemap; sourceTree = "<group>"; };
+		EE32BB65F680868FE3DD8C619AFB197A /* Pods-Nightstand_UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Nightstand_UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F771550B7493AB195B25B41992C0FEDD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F98662B97F340866723F7EA90CF3D26C /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		FE8D7F6AC2A059DC8FA9660C7DB95B60 /* Pods-Nightstand_UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nightstand_UITests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		14CCC7CC83DD8CD211E2C76806D13C43 /* Frameworks */ = {
+		2ACCA79A5006CFBE721E8C6C79E854D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				030A3043A5A39F45725BA123B9DFA9BA /* Foundation.framework in Frameworks */,
+				F734FC7B821341ED468AAF4ED4F5C246 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		584C7A815FCD8ACFBF8B14EAA80EB884 /* Frameworks */ = {
+		4B63C5173A5D011A917DCA37C82852E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF810A29CE8AD3CA3EE3767D45BE5BA6 /* Foundation.framework in Frameworks */,
+				855A2483D9B80B1142426C9C97B663E8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		634B62504BF8B2268267C7D1EB341161 /* Frameworks */ = {
+		DF1EEEEB4E11A1565CB110BDE8EB2AA9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A6E46D19D2B128E6303279CBAA487E0 /* Foundation.framework in Frameworks */,
+				E70D844BBE3B918AED822D276CFCCCEC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75CCC1E0CDF4F02BF11462695F1569BB /* Frameworks */ = {
+		E340EE3B8A0D6CD1DA546A0EDFE70F4E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE7E604D7DC993062746EE8AFF8E6E31 /* Foundation.framework in Frameworks */,
-				38423C6F928999BB910C104B4E5BDDFD /* QuartzCore.framework in Frameworks */,
-				F7B2DB84BE0344D0899FA5165A5670B0 /* UIKit.framework in Frameworks */,
-				C54145BF50C86788D20B8FFBFD01A8CB /* XCTest.framework in Frameworks */,
+				1E6DF9FBCD7B88DCF9D2747D4F9B90C5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D120F0F69C2057C8B2F8721837A04BC /* Frameworks */ = {
+		FDD1A2F6F0C7CD64F79B3E79FC562312 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				394C03718B9A6648B9E8933E6B076760 /* Foundation.framework in Frameworks */,
+				115B9F2A343D1880D138F41B9491C125 /* Foundation.framework in Frameworks */,
+				86BC25FD2CC085B17A374500C747062D /* QuartzCore.framework in Frameworks */,
+				82CE8E0DC98452F08E1A03D3CA91B763 /* UIKit.framework in Frameworks */,
+				968B5318A745263F0D3A72023217CD12 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		032091FEE0217BC41BDBCF0E859700FD /* SwiftSupport */ = {
+		1484F37C48E628EAA35EACEAEA56673E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				CE05CEDCC94943B72EF7FED9A71E3337 /* SwiftSupport.swift */,
-			);
-			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		05C07DDB5937D64286E80CDCA5239CFA /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				FA93DD32367181582259A0BF4AF2C0D7 /* FBSnapshotTestCase.h */,
-				6462F24C3105950F66A5DF1F0A12E98B /* FBSnapshotTestCase.m */,
-				B63A46EB407C0A5960C6AA0C29BA2CEE /* FBSnapshotTestCasePlatform.h */,
-				387A6D96DB403759A67B281B55AE83D4 /* FBSnapshotTestCasePlatform.m */,
-				D94F7F72C0A8169FAEC9850E79D05F93 /* FBSnapshotTestController.h */,
-				CD72CFD979F343D37CB387971F514B01 /* FBSnapshotTestController.m */,
-				DF36DAF810A4891871D88EC736F16A7D /* UIImage+Compare.h */,
-				CA462AF44B6E1F01BC448A33FBA48F04 /* UIImage+Compare.m */,
-				705BA72351A95278B19D57FBFD089DFC /* UIImage+Diff.h */,
-				C23E2EEB5492EDEF09E04FA32A1CCC45 /* UIImage+Diff.m */,
-				D16195EDEF3FA143C0A303E63E0BCD18 /* UIImage+Snapshot.h */,
-				B27E856B69CEA127575B3CE2F297224F /* UIImage+Snapshot.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				77E6A3533BFFC5453A29188F8955E61A /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		29C946152A71D618B98B2F77119C89DA /* Pods-Nightstand_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				52D6FC45DD70362CB1B9EB1A99EF3671 /* Info.plist */,
-				C46CD0DA634ED5348914C566F727BC39 /* Pods-Nightstand_Tests.modulemap */,
-				F806163CBD9193406B67969E21010DDB /* Pods-Nightstand_Tests-acknowledgements.markdown */,
-				D614CB0EF4779DF1BD02004A2A9BFD59 /* Pods-Nightstand_Tests-acknowledgements.plist */,
-				181F1E93050CA41216219FB7F09B63A8 /* Pods-Nightstand_Tests-dummy.m */,
-				DDE403B99309079E3660AC4DD0D3BCC8 /* Pods-Nightstand_Tests-frameworks.sh */,
-				403245D03D40DC467E10FE681D92F7DC /* Pods-Nightstand_Tests-resources.sh */,
-				30300DDBF37E2CB5AF01B7E79F164CBD /* Pods-Nightstand_Tests-umbrella.h */,
-				6EA1FDAA82CBA49E3421E9628802D825 /* Pods-Nightstand_Tests.debug.xcconfig */,
-				93670D7CE0AAB5D52982E8F64CF9502D /* Pods-Nightstand_Tests.release.xcconfig */,
-			);
-			name = "Pods-Nightstand_Tests";
-			path = "Target Support Files/Pods-Nightstand_Tests";
-			sourceTree = "<group>";
-		};
-		3BA207B3684A76947556250E470968E8 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3F97251A079082CCFE06040B106C2CD2 /* Nightstand */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		3F97251A079082CCFE06040B106C2CD2 /* Nightstand */ = {
-			isa = PBXGroup;
-			children = (
-				E91D42C741FCD1346D02E9D0D5D04CCF /* CellProvider.swift */,
-				10C4C6CE88E0BBD057DA48DDBD9EF09D /* Configurable.swift */,
-				C08A948F120F6D1F68E027A225DCB78F /* ReusableView.swift */,
-				22244E57DB64717A78005002646F51C8 /* Row.swift */,
-				230E8B9EF4ED2F7330EEF1747D9E998A /* Section.swift */,
-				62A04727D4944615B9FBD65C0BA4417D /* Sectioned.swift */,
-				42436805809F8A42F8386DB0B1EF90A9 /* TableViewCellActions.swift */,
-				AA19867C6DC6853E4C079EDC694510C6 /* TableViewCellConfiguration.swift */,
-				666143DB80EDFEE6662EBCB88833411F /* UITableView.swift */,
-				4FFCAD4838FADE0AC0EEFD67E171D020 /* Pod */,
-				6E04D5ED8CAA33A22C42D947FD2D76AD /* Support Files */,
-				EB4D0D2B8CCC0C8EC162E8A0E3536A2B /* Table View Cells */,
-			);
-			name = Nightstand;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		4C38840AE1DDAEAF48F41591B86FA159 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D365339E71ED3AD28196CD471A8425A0 /* FBSnapshotTestCase.framework */,
-				440611F70F4A493E10F0BD8A5873F3EB /* Nightstand.framework */,
-				D2CEBA56EB0A340B33B869D051B872E7 /* Pods_Nightstand_Example.framework */,
-				2C63C0C7F688CDD35123248B1F52389E /* Pods_Nightstand_Tests.framework */,
-				325800566A37FF1D29EAB1217E52E234 /* Pods_Nightstand_UITests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4EB1F7E7295E5F990EC83EE245EA8A1E /* Pods-Nightstand_UITests */ = {
-			isa = PBXGroup;
-			children = (
-				1982CBDD76E85FE33329446448B1954E /* Info.plist */,
-				01D529A08FC6BB1D28DF1C4EBFDC885B /* Pods-Nightstand_UITests.modulemap */,
-				E5473B4A9757EE92ECFFFAB3149CC858 /* Pods-Nightstand_UITests-acknowledgements.markdown */,
-				3F0469A6599052A959B5BC6678F21386 /* Pods-Nightstand_UITests-acknowledgements.plist */,
-				3B99CF342CA89041759F5863BE1FCF06 /* Pods-Nightstand_UITests-dummy.m */,
-				6E3B49682C6C3CD03589074C90E939E3 /* Pods-Nightstand_UITests-frameworks.sh */,
-				7E0729F6BE148667A6B27D64C03A150D /* Pods-Nightstand_UITests-resources.sh */,
-				82AB04B136DB3947FA6B79C6E43640DE /* Pods-Nightstand_UITests-umbrella.h */,
-				9BB8D8D8A301448760E169437F01275E /* Pods-Nightstand_UITests.debug.xcconfig */,
-				9B2A19A1ACCCEDDCCC2010EA6F0F9190 /* Pods-Nightstand_UITests.release.xcconfig */,
-			);
-			name = "Pods-Nightstand_UITests";
-			path = "Target Support Files/Pods-Nightstand_UITests";
-			sourceTree = "<group>";
-		};
-		4FFCAD4838FADE0AC0EEFD67E171D020 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				35DB996025779EC620E4988717F3D9CB /* LICENSE */,
-				D711D25C5AEA78C8768D3638981E95B3 /* Nightstand.podspec */,
-				8196297279DE70A3CAB5620161D2F204 /* README.md */,
+				F771550B7493AB195B25B41992C0FEDD /* LICENSE */,
+				61160AE7D897E8C6DB03EAE9B588A78B /* Nightstand.podspec */,
+				0404B0D9A13FDA1936F92DA7B2437494 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		589BD60AC040A979279824BC1E7FDE77 /* Support Files */ = {
+		22F3ECA726DE45D34B3ADFE5F42DC86C /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				2A448B7C3DBD4808B8176138956ECAA6 /* Info.plist */,
-				58FBBB6C0A302210ACF8F270AEC44B92 /* iOSSnapshotTestCase.modulemap */,
-				F7CD053797353C13EB3F9DB7D78DA2C0 /* iOSSnapshotTestCase.xcconfig */,
-				3BA60CC2C7533A015EC4DDBE05AEB868 /* iOSSnapshotTestCase-dummy.m */,
-				DAD0D69798BF5F1AF6106C11F92A6BD7 /* iOSSnapshotTestCase-prefix.pch */,
-				89070A2463D1516D5C708094BE3C54C8 /* iOSSnapshotTestCase-umbrella.h */,
+				3BF0D8E3529AAF9DD2F8B3378FD89216 /* FBSnapshotTestCase.h */,
+				523B65C5434BF857787C7B495D48070A /* FBSnapshotTestCase.m */,
+				DC37D45B91EAA34C1B307819F4FBFA48 /* FBSnapshotTestCasePlatform.h */,
+				BD3E11CFF525A7BE0F5090E39A8A725C /* FBSnapshotTestCasePlatform.m */,
+				0BFB7DE40547F6148458C28227213A42 /* FBSnapshotTestController.h */,
+				0F2628B40D6A150C1ADD3875C92B9792 /* FBSnapshotTestController.m */,
+				F98662B97F340866723F7EA90CF3D26C /* UIImage+Compare.h */,
+				EB07CC184E97597B5EF96293FD8D6775 /* UIImage+Compare.m */,
+				2EE0D8468132004B33C282270003A158 /* UIImage+Diff.h */,
+				078903AE75C1D7D5C61C8DE620D53A5A /* UIImage+Diff.m */,
+				EBD54FBC707C522306409616608E03F7 /* UIImage+Snapshot.h */,
+				85F5D23833B7C650DB2B9B5EA95B43F7 /* UIImage+Snapshot.m */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/iOSSnapshotTestCase";
+			name = Core;
 			sourceTree = "<group>";
 		};
-		650F028C4EAB5D4538E83B21F265B258 /* Pods */ = {
+		435489B56C63D57B6F480411D2ECC160 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				781E4722255ABB33F5BA9F7EFC09E1C7 /* iOSSnapshotTestCase */,
+				EFF1EAE44DF5397EE93427776ECDDC88 /* iOSSnapshotTestCase */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		6E04D5ED8CAA33A22C42D947FD2D76AD /* Support Files */ = {
+		5AFDDFB2464933B9395BFFC3A8D64726 /* Table View Cells */ = {
 			isa = PBXGroup;
 			children = (
-				96126E452C7A09613DFDE90CCF83EA1B /* Info.plist */,
-				987A853FAC37482B3D7E12F7A11B1A4C /* Nightstand.modulemap */,
-				E9ED9FA377C866AAAF6FADC74F4AF927 /* Nightstand.xcconfig */,
-				121EB7A04CB90AE5573C4C4E4DE6C023 /* Nightstand-dummy.m */,
-				57A5B4A98038947FEAA8F96E36097F11 /* Nightstand-prefix.pch */,
-				26196519C8C91856BD1E8F4C6FE89121 /* Nightstand-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Nightstand";
-			sourceTree = "<group>";
-		};
-		77E6A3533BFFC5453A29188F8955E61A /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */,
-				C2379EEB1B2E42B0DADE15CB60E65F85 /* QuartzCore.framework */,
-				37B206F681A10A3CEFD3120DC6A65DCE /* UIKit.framework */,
-				4CCF8FB06D0D8E2640C57D460AB67AF6 /* XCTest.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		781E4722255ABB33F5BA9F7EFC09E1C7 /* iOSSnapshotTestCase */ = {
-			isa = PBXGroup;
-			children = (
-				05C07DDB5937D64286E80CDCA5239CFA /* Core */,
-				589BD60AC040A979279824BC1E7FDE77 /* Support Files */,
-				032091FEE0217BC41BDBCF0E859700FD /* SwiftSupport */,
-			);
-			path = iOSSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				3BA207B3684A76947556250E470968E8 /* Development Pods */,
-				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				650F028C4EAB5D4538E83B21F265B258 /* Pods */,
-				4C38840AE1DDAEAF48F41591B86FA159 /* Products */,
-				B7EC81E4DF777F2B17D0BC3BAC694C57 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		B7EC81E4DF777F2B17D0BC3BAC694C57 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EA194A6917A5599F9B1A4F76A162B1A4 /* Pods-Nightstand_Example */,
-				29C946152A71D618B98B2F77119C89DA /* Pods-Nightstand_Tests */,
-				4EB1F7E7295E5F990EC83EE245EA8A1E /* Pods-Nightstand_UITests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		EA194A6917A5599F9B1A4F76A162B1A4 /* Pods-Nightstand_Example */ = {
-			isa = PBXGroup;
-			children = (
-				4C87E049AF21777500D704E48625BF21 /* Info.plist */,
-				87AEC5E467590DA1EE13DDD7A060F23C /* Pods-Nightstand_Example.modulemap */,
-				096F256196ED015F65789380DEAF266B /* Pods-Nightstand_Example-acknowledgements.markdown */,
-				F5CB76A89B191053E13678ECB2B0ACE6 /* Pods-Nightstand_Example-acknowledgements.plist */,
-				8F9BDBA3AB5858BC6C4400A9018B4912 /* Pods-Nightstand_Example-dummy.m */,
-				5B7C606401D16342CE5E3EFF386309A2 /* Pods-Nightstand_Example-frameworks.sh */,
-				432750590F8ED00C325BC9D4337BC364 /* Pods-Nightstand_Example-resources.sh */,
-				8E3CF870E80D438753F2F2EC646C0D88 /* Pods-Nightstand_Example-umbrella.h */,
-				F4B2CFF5FC05958511806BE1C9047373 /* Pods-Nightstand_Example.debug.xcconfig */,
-				AFA439DD10844BA2231A578C61FC7C0E /* Pods-Nightstand_Example.release.xcconfig */,
-			);
-			name = "Pods-Nightstand_Example";
-			path = "Target Support Files/Pods-Nightstand_Example";
-			sourceTree = "<group>";
-		};
-		EB4D0D2B8CCC0C8EC162E8A0E3536A2B /* Table View Cells */ = {
-			isa = PBXGroup;
-			children = (
-				93112DC4AE11B9B3DA5FE48343E9891C /* DefaultTableViewCell.swift */,
-				666B93146239DFA07DB8AB9F37C127C4 /* SubtitleTableViewCell.swift */,
-				917D392BECD2BA3F37986ABC77D171CE /* Value1TableViewCell.swift */,
-				49B69343AF30087FAF583A86E7BA21CA /* Value2TableViewCell.swift */,
+				902CD61665824F5D2D1C30EE7653A1CC /* DefaultTableViewCell.swift */,
+				71AA2713DA8E8DA2BF99C8DC62333560 /* SubtitleTableViewCell.swift */,
+				5A4C065D6672B6610393B52DEFBFE6E1 /* Value1TableViewCell.swift */,
+				EC2757F6FB4105299B8FABBF3B40B921 /* Value2TableViewCell.swift */,
 			);
 			name = "Table View Cells";
 			path = "Nightstand/Classes/Table View Cells";
 			sourceTree = "<group>";
 		};
+		7BBF4FEA91EBED7F7CAFBBA0EBC42E3F /* Pods-Nightstand_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9B07E286ACF8542D4E5B0911A2AA87E8 /* Pods-Nightstand_Tests.modulemap */,
+				1443D123659E76C1C6326236AA9C55FF /* Pods-Nightstand_Tests-acknowledgements.markdown */,
+				4C76C7BD2BB05BFE85A81BB2FA49D769 /* Pods-Nightstand_Tests-acknowledgements.plist */,
+				B29DB1E18B96E61D52984234A378786D /* Pods-Nightstand_Tests-dummy.m */,
+				5989FD501CD421DD0FDFCE8D16A79E78 /* Pods-Nightstand_Tests-frameworks.sh */,
+				3E3DA428FC65C59B3986E920EE564544 /* Pods-Nightstand_Tests-Info.plist */,
+				AD2428F93C1BC617944640DF303CA00D /* Pods-Nightstand_Tests-umbrella.h */,
+				BC42E6B80F6E28CD662661E2A5CA72FD /* Pods-Nightstand_Tests.debug.xcconfig */,
+				1863678A7298B8791BFBDD8897E5BD93 /* Pods-Nightstand_Tests.release.xcconfig */,
+			);
+			name = "Pods-Nightstand_Tests";
+			path = "Target Support Files/Pods-Nightstand_Tests";
+			sourceTree = "<group>";
+		};
+		7CD312C5B6F02DB4630A4B5F6599E34A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5CB518A653E0F19B70574810D95A6F5 /* Pods-Nightstand_Example */,
+				7BBF4FEA91EBED7F7CAFBBA0EBC42E3F /* Pods-Nightstand_Tests */,
+				928D3013DB93F5542127337D76EA01DD /* Pods-Nightstand_UITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */,
+				716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */,
+				8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */,
+				5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		83EEE7219BA467A081E40DAC51F94B90 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECB6C06127861CF91A7AD52A80D1777A /* Nightstand.modulemap */,
+				DFC0EB0EE9B789B26B7250A4229FCBF8 /* Nightstand.xcconfig */,
+				AC3C67E89CA7D26A1BBA98E8FB1B09A8 /* Nightstand-dummy.m */,
+				3DCCFBE6AA2BB3D30140DB3B022865A6 /* Nightstand-Info.plist */,
+				CAE23DC1B196C2222F1F884C1EFEC193 /* Nightstand-prefix.pch */,
+				5693187CC20A5C476658E8A8F8FA8454 /* Nightstand-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Nightstand";
+			sourceTree = "<group>";
+		};
+		928D3013DB93F5542127337D76EA01DD /* Pods-Nightstand_UITests */ = {
+			isa = PBXGroup;
+			children = (
+				68FFD9E54CB47EA177B2B070F86C10B1 /* Pods-Nightstand_UITests.modulemap */,
+				359A783870F2585EC846EE9E1AB5D1AA /* Pods-Nightstand_UITests-acknowledgements.markdown */,
+				EE32BB65F680868FE3DD8C619AFB197A /* Pods-Nightstand_UITests-acknowledgements.plist */,
+				45BE4F0C915FE9FE065BA9BE22A345BC /* Pods-Nightstand_UITests-dummy.m */,
+				FE8D7F6AC2A059DC8FA9660C7DB95B60 /* Pods-Nightstand_UITests-frameworks.sh */,
+				D4E67365147EF395A7F2EBA34A658346 /* Pods-Nightstand_UITests-Info.plist */,
+				95EB62356F700AD52AC4416C16B0807A /* Pods-Nightstand_UITests-umbrella.h */,
+				69AF571B8CEDD16F30210B8E91D2EC0A /* Pods-Nightstand_UITests.debug.xcconfig */,
+				D93C01D8BFF80189B9F3360C7C9F1C30 /* Pods-Nightstand_UITests.release.xcconfig */,
+			);
+			name = "Pods-Nightstand_UITests";
+			path = "Target Support Files/Pods-Nightstand_UITests";
+			sourceTree = "<group>";
+		};
+		A222A9C1427FEE47EF8DE5C03195EBC3 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				432D328D5B1788520371534F0EC9AA67 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		B70E202D60EE5626EF97EE0FD8519130 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD477F11318B6732070A2F6AA1EEEE19 /* Nightstand */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DE5752EED0A4C4A430975244947611A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5CB518A653E0F19B70574810D95A6F5 /* Pods-Nightstand_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9B180C2B69D5D379083A2F860ADEE94B /* Pods-Nightstand_Example.modulemap */,
+				7C06E6925F67D1901E61FEB6747CB217 /* Pods-Nightstand_Example-acknowledgements.markdown */,
+				86D51496D8BC75D4F37C31AC7EDAD7E3 /* Pods-Nightstand_Example-acknowledgements.plist */,
+				43A936C88C685DD2A6C7AD565A6488CE /* Pods-Nightstand_Example-dummy.m */,
+				6A66E654D1DFE03B6054026156867708 /* Pods-Nightstand_Example-frameworks.sh */,
+				A9532276ED1E42ED64568246A869BCCB /* Pods-Nightstand_Example-Info.plist */,
+				BF3603984D7DA1DF3221A394D8D36D5E /* Pods-Nightstand_Example-umbrella.h */,
+				34D2873C2DCF4EE00C1CDCEF90881FA4 /* Pods-Nightstand_Example.debug.xcconfig */,
+				988BE7528CD283815FFC54CD867B1CAC /* Pods-Nightstand_Example.release.xcconfig */,
+			);
+			name = "Pods-Nightstand_Example";
+			path = "Target Support Files/Pods-Nightstand_Example";
+			sourceTree = "<group>";
+		};
+		CD477F11318B6732070A2F6AA1EEEE19 /* Nightstand */ = {
+			isa = PBXGroup;
+			children = (
+				6FA5AE5C8A3E5B9A236D4DA0A0687EBA /* CellProvider.swift */,
+				0E7AD7BE903891D3FD2F0EE7D7ECCDD1 /* Configurable.swift */,
+				117883AD5A74250A1CA17996C7F44ECB /* Nightstand.swift */,
+				7391D4ABFE30A1D403994767E37FA920 /* ReusableView.swift */,
+				C12DBB35F74D83F301AFD1CFD3AEC7AF /* Row.swift */,
+				0A5860A7B578249274B8F0E70EFAB55E /* Section.swift */,
+				97E9D21554BB4A4FBA75A8472D4A7342 /* TableViewCellActions.swift */,
+				729B73657EDD107CBEAD9A400C3BFE35 /* TableViewCellConfiguration.swift */,
+				06BC8BB611CF76E431D907BCF2526DA4 /* UITableView+CellReuse.swift */,
+				1484F37C48E628EAA35EACEAEA56673E /* Pod */,
+				83EEE7219BA467A081E40DAC51F94B90 /* Support Files */,
+				5AFDDFB2464933B9395BFFC3A8D64726 /* Table View Cells */,
+			);
+			name = Nightstand;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B70E202D60EE5626EF97EE0FD8519130 /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				435489B56C63D57B6F480411D2ECC160 /* Pods */,
+				FFB71C9FBA9F3900F87EB345DD11710E /* Products */,
+				7CD312C5B6F02DB4630A4B5F6599E34A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E8F185C38F4D0FECED758E1073BF7128 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				900C95C1DE73EA90A623D23D95C912B0 /* iOSSnapshotTestCase.modulemap */,
+				B75A47899E602A5CA9E833F7D136622D /* iOSSnapshotTestCase.xcconfig */,
+				796F28118D863DD7DDE14D1F6AC3DC9C /* iOSSnapshotTestCase-dummy.m */,
+				64860ED4D1469506201CA2ECB2F54AF9 /* iOSSnapshotTestCase-Info.plist */,
+				5069A3FAA385B1F702DF6F5C83461EF2 /* iOSSnapshotTestCase-prefix.pch */,
+				58F4181C8833BE6DB86CDA8C805A00A9 /* iOSSnapshotTestCase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iOSSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		EFF1EAE44DF5397EE93427776ECDDC88 /* iOSSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				22F3ECA726DE45D34B3ADFE5F42DC86C /* Core */,
+				E8F185C38F4D0FECED758E1073BF7128 /* Support Files */,
+				A222A9C1427FEE47EF8DE5C03195EBC3 /* SwiftSupport */,
+			);
+			name = iOSSnapshotTestCase;
+			path = iOSSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		FFB71C9FBA9F3900F87EB345DD11710E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B91B00F8BE943329D633234BD67AE0AC /* FBSnapshotTestCase.framework */,
+				C83319224AA748BBE23CA65420450EB8 /* Nightstand.framework */,
+				80C33F483A5A167F2A61A745DE588A6C /* Pods_Nightstand_Example.framework */,
+				83803D7C6E0E690003686AF32DD25837 /* Pods_Nightstand_Tests.framework */,
+				A00417C2178CE1E5700730ED80D9ED33 /* Pods_Nightstand_UITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		839F71E2E6605B9D5B5CEBE3B6BBD24A /* Headers */ = {
+		4DA6F8F4F4FE69FB8060F9289437646E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23E88B8E9B32FA9DF3C2E94FEA5E76B9 /* Pods-Nightstand_Example-umbrella.h in Headers */,
+				B7B7D2423E3D7807CC41A08579967279 /* Nightstand-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		841F06146B65C5F315287644FA3D8897 /* Headers */ = {
+		780CEF0D4ABC99A5E9F66BA2F2F6E6EB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8EDC2DEE73A098FB4014E0919493D7E /* Pods-Nightstand_Tests-umbrella.h in Headers */,
+				157181ACB873BD0842D753A154B76BAA /* Pods-Nightstand_UITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C221F4C5AC220BFE8FA7A078932DB14 /* Headers */ = {
+		9DDF4621ED2F2C9D59C6D4161C39D2FD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A0CD87A3ED90370FBE9C2D34D28B831 /* FBSnapshotTestCase.h in Headers */,
-				0BFEB83762334C6357E3EE90097D4388 /* FBSnapshotTestCasePlatform.h in Headers */,
-				988CE191249034461B77C6B0DB40C77C /* FBSnapshotTestController.h in Headers */,
-				17E51AFDFDBA721468B3B487578152C4 /* iOSSnapshotTestCase-umbrella.h in Headers */,
-				255991CE0E9BE369DDB074CFB07DC2F4 /* UIImage+Compare.h in Headers */,
-				03D9FA1D368DE04CBC17735D036CB0AC /* UIImage+Diff.h in Headers */,
-				8DD949008257CE640EE411DC5207A26D /* UIImage+Snapshot.h in Headers */,
+				719D90E44BCD4D95006C00E56BA79209 /* Pods-Nightstand_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD99CA924E656E28CFD98BD9D4F522BB /* Headers */ = {
+		A1F0BF3267CFE49DA92D818F3B3A46DA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17C15CA8141A56B8E5954BA9FB90D03D /* Pods-Nightstand_UITests-umbrella.h in Headers */,
+				3B540469AF7772C156A3AD0CC6184734 /* FBSnapshotTestCase.h in Headers */,
+				6543CE32DD97E4F24919522FE4E79A94 /* FBSnapshotTestCasePlatform.h in Headers */,
+				796D4CB4F4AB8ECBBD931B099A74E833 /* FBSnapshotTestController.h in Headers */,
+				C930BCB1B395E19ABBE9D4D491867353 /* iOSSnapshotTestCase-umbrella.h in Headers */,
+				2643963F8600F16366AF89ABF6D91F82 /* UIImage+Compare.h in Headers */,
+				09F3021D3323D0B64812EE10886827AB /* UIImage+Diff.h in Headers */,
+				3CE95FD1D722818A524677118DF557BA /* UIImage+Snapshot.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE6131F773B67E04BF8539EE8A3C7F97 /* Headers */ = {
+		D1A8E1D99CF2A6382B117E10E38A4E9A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F1A702B0EE9DFC86659638CF80C77F4 /* Nightstand-umbrella.h in Headers */,
+				0212AACD9CCB9A6A548049F114F73744 /* Pods-Nightstand_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		12C267040535F32F1DD276A244C5A127 /* Nightstand */ = {
+		504BD4848DB80D5D41EDD555E82418B3 /* Pods-Nightstand_UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 75CFC706563929113002D92F90CE132C /* Build configuration list for PBXNativeTarget "Nightstand" */;
+			buildConfigurationList = 18C3F7BED25597DB9ADA55101DAE3797 /* Build configuration list for PBXNativeTarget "Pods-Nightstand_UITests" */;
 			buildPhases = (
-				EE6131F773B67E04BF8539EE8A3C7F97 /* Headers */,
-				1B72A026A342125C667B908926F5193B /* Sources */,
-				584C7A815FCD8ACFBF8B14EAA80EB884 /* Frameworks */,
-				F55D48439A5C5E08DE302A1EB3E315AA /* Resources */,
+				780CEF0D4ABC99A5E9F66BA2F2F6E6EB /* Headers */,
+				7E88F9531F9B26FD6640AA3379EEA666 /* Sources */,
+				DF1EEEEB4E11A1565CB110BDE8EB2AA9 /* Frameworks */,
+				889C71F23EB41B1C951C168CAECF474D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08565AD1BA4B346EE08A77F83AACC08C /* PBXTargetDependency */,
+				0564426E313260ABC50E2BD124A2FB1A /* PBXTargetDependency */,
+			);
+			name = "Pods-Nightstand_UITests";
+			productName = "Pods-Nightstand_UITests";
+			productReference = A00417C2178CE1E5700730ED80D9ED33 /* Pods_Nightstand_UITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		84840D84B2B69DBAB3B2E8CBB55A6A18 /* Pods-Nightstand_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F17D5D0DE7A24CEE22CED3A1E67F8C3 /* Build configuration list for PBXNativeTarget "Pods-Nightstand_Example" */;
+			buildPhases = (
+				9DDF4621ED2F2C9D59C6D4161C39D2FD /* Headers */,
+				DD9F13386A7B56D7E9C08662E4859AA9 /* Sources */,
+				E340EE3B8A0D6CD1DA546A0EDFE70F4E /* Frameworks */,
+				5F6FCAA4EA94271422EE90192AFC4489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2C3F0961C08F5A6A9DB9CFBDA092CF4 /* PBXTargetDependency */,
+			);
+			name = "Pods-Nightstand_Example";
+			productName = "Pods-Nightstand_Example";
+			productReference = 80C33F483A5A167F2A61A745DE588A6C /* Pods_Nightstand_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D1E373392E52624812E0FF0458E9C47 /* Nightstand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65CFE8E8CFB4CA9459F42037063CDE3E /* Build configuration list for PBXNativeTarget "Nightstand" */;
+			buildPhases = (
+				4DA6F8F4F4FE69FB8060F9289437646E /* Headers */,
+				F18219A567CC3CBD6920723ACD9DAA12 /* Sources */,
+				2ACCA79A5006CFBE721E8C6C79E854D3 /* Frameworks */,
+				6F46ACC2B8F83210FAF69F3FC1813A56 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -519,56 +553,37 @@
 			);
 			name = Nightstand;
 			productName = Nightstand;
-			productReference = 440611F70F4A493E10F0BD8A5873F3EB /* Nightstand.framework */;
+			productReference = C83319224AA748BBE23CA65420450EB8 /* Nightstand.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2EA162F5AF5B4899D7494F0126B14A76 /* Pods-Nightstand_Example */ = {
+		A3E4D8016F339B4951416DA1A4056B17 /* Pods-Nightstand_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E5807EA30BDBEF0D01B72AEB473B576 /* Build configuration list for PBXNativeTarget "Pods-Nightstand_Example" */;
+			buildConfigurationList = 6D54144F463ED49E77122AF154871803 /* Build configuration list for PBXNativeTarget "Pods-Nightstand_Tests" */;
 			buildPhases = (
-				839F71E2E6605B9D5B5CEBE3B6BBD24A /* Headers */,
-				143A6F8A767D89B86A66D4C5E80673BA /* Sources */,
-				7D120F0F69C2057C8B2F8721837A04BC /* Frameworks */,
-				A2B218040A5A14288C1E98F14446E28C /* Resources */,
+				D1A8E1D99CF2A6382B117E10E38A4E9A /* Headers */,
+				B8FCE219C54E9ECBB6F66BC2FDF2349B /* Sources */,
+				4B63C5173A5D011A917DCA37C82852E7 /* Frameworks */,
+				8BA0790FCB1246842A0DED81C78FE4E2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3B695542EAE6F9084327EB3739922404 /* PBXTargetDependency */,
-			);
-			name = "Pods-Nightstand_Example";
-			productName = "Pods-Nightstand_Example";
-			productReference = D2CEBA56EB0A340B33B869D051B872E7 /* Pods_Nightstand_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B6BC5E8EC7FF87B3F8D0BC85F5E2FAFC /* Pods-Nightstand_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E58DB81C97F06EF4AEC273B594F81671 /* Build configuration list for PBXNativeTarget "Pods-Nightstand_Tests" */;
-			buildPhases = (
-				841F06146B65C5F315287644FA3D8897 /* Headers */,
-				5A0006E7F365DDDD061A2A56CD1BE3F3 /* Sources */,
-				14CCC7CC83DD8CD211E2C76806D13C43 /* Frameworks */,
-				D21CBCE355FEE8CE67C8A9606470B1BE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				72F7D9BED4C9D3F92CC0C44B5EB62F8D /* PBXTargetDependency */,
-				F686A96DF60A27869D3DCB49F10FFE58 /* PBXTargetDependency */,
+				3BB881B8EB5058E23DFADAD1032BF961 /* PBXTargetDependency */,
+				DC8EE5C54241C3C5EC47311486E4F2EF /* PBXTargetDependency */,
 			);
 			name = "Pods-Nightstand_Tests";
 			productName = "Pods-Nightstand_Tests";
-			productReference = 2C63C0C7F688CDD35123248B1F52389E /* Pods_Nightstand_Tests.framework */;
+			productReference = 83803D7C6E0E690003686AF32DD25837 /* Pods_Nightstand_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CCB670195D5BD218E1661BC4890D70E2 /* iOSSnapshotTestCase */ = {
+		C393038B0BEF088C1B93E6528005862D /* iOSSnapshotTestCase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5813A2F6B0CDB6FD40A1348BFBA82EA /* Build configuration list for PBXNativeTarget "iOSSnapshotTestCase" */;
+			buildConfigurationList = A2580343E01EF46F4A1E600895C7753A /* Build configuration list for PBXNativeTarget "iOSSnapshotTestCase" */;
 			buildPhases = (
-				9C221F4C5AC220BFE8FA7A078932DB14 /* Headers */,
-				5E6CA99EFC68AF0514F5BB3DCB17F0C5 /* Sources */,
-				75CCC1E0CDF4F02BF11462695F1569BB /* Frameworks */,
-				B05303B66CE7EF9C1F2EAD2C5EEEB5DD /* Resources */,
+				A1F0BF3267CFE49DA92D818F3B3A46DA /* Headers */,
+				FA38C61E9FAB25560B08593BFCCD050F /* Sources */,
+				FDD1A2F6F0C7CD64F79B3E79FC562312 /* Frameworks */,
+				B8848E61F4166ABF3DCCE39D45C21A1B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -576,89 +591,70 @@
 			);
 			name = iOSSnapshotTestCase;
 			productName = iOSSnapshotTestCase;
-			productReference = D365339E71ED3AD28196CD471A8425A0 /* FBSnapshotTestCase.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FAFD31CF23C741757CF35138DB2C79B9 /* Pods-Nightstand_UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 74E6AC1007F09041DF419163DC7562CC /* Build configuration list for PBXNativeTarget "Pods-Nightstand_UITests" */;
-			buildPhases = (
-				BD99CA924E656E28CFD98BD9D4F522BB /* Headers */,
-				0479BC5DC7550510B05649B159659FB9 /* Sources */,
-				634B62504BF8B2268267C7D1EB341161 /* Frameworks */,
-				F5BDDAEE594FBA5674E8E25B962E4325 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1716CD0267FFD4A3F78D95692BDEAB0C /* PBXTargetDependency */,
-				13B30C91392BE6E0376F5D9988BB705E /* PBXTargetDependency */,
-			);
-			name = "Pods-Nightstand_UITests";
-			productName = "Pods-Nightstand_UITests";
-			productReference = 325800566A37FF1D29EAB1217E52E234 /* Pods_Nightstand_UITests.framework */;
+			productReference = B91B00F8BE943329D633234BD67AE0AC /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 4C38840AE1DDAEAF48F41591B86FA159 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FFB71C9FBA9F3900F87EB345DD11710E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CCB670195D5BD218E1661BC4890D70E2 /* iOSSnapshotTestCase */,
-				12C267040535F32F1DD276A244C5A127 /* Nightstand */,
-				2EA162F5AF5B4899D7494F0126B14A76 /* Pods-Nightstand_Example */,
-				B6BC5E8EC7FF87B3F8D0BC85F5E2FAFC /* Pods-Nightstand_Tests */,
-				FAFD31CF23C741757CF35138DB2C79B9 /* Pods-Nightstand_UITests */,
+				C393038B0BEF088C1B93E6528005862D /* iOSSnapshotTestCase */,
+				9D1E373392E52624812E0FF0458E9C47 /* Nightstand */,
+				84840D84B2B69DBAB3B2E8CBB55A6A18 /* Pods-Nightstand_Example */,
+				A3E4D8016F339B4951416DA1A4056B17 /* Pods-Nightstand_Tests */,
+				504BD4848DB80D5D41EDD555E82418B3 /* Pods-Nightstand_UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A2B218040A5A14288C1E98F14446E28C /* Resources */ = {
+		5F6FCAA4EA94271422EE90192AFC4489 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B05303B66CE7EF9C1F2EAD2C5EEEB5DD /* Resources */ = {
+		6F46ACC2B8F83210FAF69F3FC1813A56 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D21CBCE355FEE8CE67C8A9606470B1BE /* Resources */ = {
+		889C71F23EB41B1C951C168CAECF474D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F55D48439A5C5E08DE302A1EB3E315AA /* Resources */ = {
+		8BA0790FCB1246842A0DED81C78FE4E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5BDDAEE594FBA5674E8E25B962E4325 /* Resources */ = {
+		B8848E61F4166ABF3DCCE39D45C21A1B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -668,105 +664,105 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0479BC5DC7550510B05649B159659FB9 /* Sources */ = {
+		7E88F9531F9B26FD6640AA3379EEA666 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5B3898E11ECA2EB03B18ACE5A0C3A5E /* Pods-Nightstand_UITests-dummy.m in Sources */,
+				E1ABBFF437CEEDAB360BD05C321BE83B /* Pods-Nightstand_UITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		143A6F8A767D89B86A66D4C5E80673BA /* Sources */ = {
+		B8FCE219C54E9ECBB6F66BC2FDF2349B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70F6E827ACC0B5A920E17B21D71CAE66 /* Pods-Nightstand_Example-dummy.m in Sources */,
+				3BB90BFA17D1FC15E455527FDD5D875D /* Pods-Nightstand_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B72A026A342125C667B908926F5193B /* Sources */ = {
+		DD9F13386A7B56D7E9C08662E4859AA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				470AC1A70777270E1E57593681E76CAA /* CellProvider.swift in Sources */,
-				EF02CD923D0E06F3252E17670677E562 /* Configurable.swift in Sources */,
-				8870BC9F9C56A6408787328870B33A3B /* DefaultTableViewCell.swift in Sources */,
-				4AFBE00E7E2F75FD661ABBF91485C99A /* Nightstand-dummy.m in Sources */,
-				7BD69CF0B93C3483421380808517B5EC /* ReusableView.swift in Sources */,
-				9166D59398787042CC9EABE16A841F31 /* Row.swift in Sources */,
-				D2FC9C33C199D08CA7E931F10BDA0637 /* Section.swift in Sources */,
-				070F12572239B34E1D2095A81B90354B /* Sectioned.swift in Sources */,
-				ACE4489416B9B935C985740F8DEA2321 /* SubtitleTableViewCell.swift in Sources */,
-				46365AA355734F0DF4A96C8A42F2272E /* TableViewCellActions.swift in Sources */,
-				6E374B53D46C4ECE6008210840E32394 /* TableViewCellConfiguration.swift in Sources */,
-				0C815AEFC5B5D9A20A0A1068391BEBD5 /* UITableView.swift in Sources */,
-				BCAD247DA61657AE9437C6CF60E3E207 /* Value1TableViewCell.swift in Sources */,
-				9AA86C78E1D2ADCF49306F75A8DC671E /* Value2TableViewCell.swift in Sources */,
+				ADB22FF1839799DDCAD2FA504BD802DF /* Pods-Nightstand_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A0006E7F365DDDD061A2A56CD1BE3F3 /* Sources */ = {
+		F18219A567CC3CBD6920723ACD9DAA12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DDB1F5FA2D7A6B6199DBDA136460EC3 /* Pods-Nightstand_Tests-dummy.m in Sources */,
+				34BC0C923E215ED7C27CC562A79BA909 /* CellProvider.swift in Sources */,
+				6F8A1AF3335E2A7AB0D85308FC514E20 /* Configurable.swift in Sources */,
+				3CB1AEA2F55899D4732F163AD8311249 /* DefaultTableViewCell.swift in Sources */,
+				00757F651D47BD6C020F34D244B425B8 /* Nightstand-dummy.m in Sources */,
+				692F722B358241A1104C62FB68914F10 /* Nightstand.swift in Sources */,
+				65214E7EBDC81BF35278B5CDB4B74D00 /* ReusableView.swift in Sources */,
+				FBBCACF2424606C6CAB4D3DE276EB925 /* Row.swift in Sources */,
+				684682A02A963349E4BF6D2DF2FE231F /* Section.swift in Sources */,
+				35228AF4B8A736708A84BFB364A9838C /* SubtitleTableViewCell.swift in Sources */,
+				77BDB25A3304BA7D152C00F886CAAA32 /* TableViewCellActions.swift in Sources */,
+				EA9F582617150D9D0060CF5ED590E69D /* TableViewCellConfiguration.swift in Sources */,
+				4EE88284D5DA3C698D0FB28C3CB1530F /* UITableView+CellReuse.swift in Sources */,
+				DC601FFF8A6871C899F565AB6AB01D47 /* Value1TableViewCell.swift in Sources */,
+				2E5E25BD193B7251A0119F64A98A975E /* Value2TableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E6CA99EFC68AF0514F5BB3DCB17F0C5 /* Sources */ = {
+		FA38C61E9FAB25560B08593BFCCD050F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28A7BD7EB950A9B9E90C0733EDA5DB21 /* FBSnapshotTestCase.m in Sources */,
-				531B110C6B0B9E83FFC106D88183BA08 /* FBSnapshotTestCasePlatform.m in Sources */,
-				42C12046999900AE237432B32DE02708 /* FBSnapshotTestController.m in Sources */,
-				AC6A33C93C6A45A72E41CDF4ABE899B1 /* iOSSnapshotTestCase-dummy.m in Sources */,
-				844EDCE06A5F272C8BE0C994DAA5F2EB /* SwiftSupport.swift in Sources */,
-				32C70F4E43D4EAF4DEB2839944E67C0E /* UIImage+Compare.m in Sources */,
-				FD5345BA620698C24F2AF1275EB7B3BE /* UIImage+Diff.m in Sources */,
-				AD5D759A5CE47EF38847CE06E23BA694 /* UIImage+Snapshot.m in Sources */,
+				E011A607387241276369F9BEEE33DA62 /* FBSnapshotTestCase.m in Sources */,
+				B6A9C62A5262C0767EF3B8C78D6FAA7D /* FBSnapshotTestCasePlatform.m in Sources */,
+				122F61784A56796A2CD7B2CD201C5525 /* FBSnapshotTestController.m in Sources */,
+				DF067743DBB9CBEF42193CC349FCC65E /* iOSSnapshotTestCase-dummy.m in Sources */,
+				4C6EEDAD2980F21361E123D4EA97FE52 /* SwiftSupport.swift in Sources */,
+				E0AEDC3FACFC674C8704AE88681164AD /* UIImage+Compare.m in Sources */,
+				4D88D1D4B6DA13E10CB05B3146C04464 /* UIImage+Diff.m in Sources */,
+				23C7638975B7288F5F514C0FD1830C7E /* UIImage+Snapshot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		13B30C91392BE6E0376F5D9988BB705E /* PBXTargetDependency */ = {
+		0564426E313260ABC50E2BD124A2FB1A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = iOSSnapshotTestCase;
-			target = CCB670195D5BD218E1661BC4890D70E2 /* iOSSnapshotTestCase */;
-			targetProxy = FB924259DAB653B056CDE5D705295B13 /* PBXContainerItemProxy */;
+			target = C393038B0BEF088C1B93E6528005862D /* iOSSnapshotTestCase */;
+			targetProxy = 3228FFCDB5083D265B28F6219DAE9B54 /* PBXContainerItemProxy */;
 		};
-		1716CD0267FFD4A3F78D95692BDEAB0C /* PBXTargetDependency */ = {
+		08565AD1BA4B346EE08A77F83AACC08C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Nightstand_Example";
-			target = 2EA162F5AF5B4899D7494F0126B14A76 /* Pods-Nightstand_Example */;
-			targetProxy = FD013FF9DD87FC9647EB064EA794B636 /* PBXContainerItemProxy */;
+			target = 84840D84B2B69DBAB3B2E8CBB55A6A18 /* Pods-Nightstand_Example */;
+			targetProxy = 9705FFD026E4F354D4FCC1DDACAA43A1 /* PBXContainerItemProxy */;
 		};
-		3B695542EAE6F9084327EB3739922404 /* PBXTargetDependency */ = {
+		3BB881B8EB5058E23DFADAD1032BF961 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Nightstand_Example";
+			target = 84840D84B2B69DBAB3B2E8CBB55A6A18 /* Pods-Nightstand_Example */;
+			targetProxy = 93BEEDADA6B4D4B66CD4FC8795FA8BCC /* PBXContainerItemProxy */;
+		};
+		DC8EE5C54241C3C5EC47311486E4F2EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iOSSnapshotTestCase;
+			target = C393038B0BEF088C1B93E6528005862D /* iOSSnapshotTestCase */;
+			targetProxy = 0AB63F7EF314BFD13F9AA8BFAE721031 /* PBXContainerItemProxy */;
+		};
+		E2C3F0961C08F5A6A9DB9CFBDA092CF4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Nightstand;
-			target = 12C267040535F32F1DD276A244C5A127 /* Nightstand */;
-			targetProxy = BE92BC1BF5EACB4CF4CFC9F0597ECA51 /* PBXContainerItemProxy */;
-		};
-		72F7D9BED4C9D3F92CC0C44B5EB62F8D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Nightstand_Example";
-			target = 2EA162F5AF5B4899D7494F0126B14A76 /* Pods-Nightstand_Example */;
-			targetProxy = 0D034ADD5512F5DF9187808842823762 /* PBXContainerItemProxy */;
-		};
-		F686A96DF60A27869D3DCB49F10FFE58 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = iOSSnapshotTestCase;
-			target = CCB670195D5BD218E1661BC4890D70E2 /* iOSSnapshotTestCase */;
-			targetProxy = 0A8C0A48B1F8E8C31E55C3E2CEDC2AC5 /* PBXContainerItemProxy */;
+			target = 9D1E373392E52624812E0FF0458E9C47 /* Nightstand */;
+			targetProxy = 049864E9296A30EBD5709E90D504D706 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		009E788625D6DA5F4317D0F08080F6C5 /* Release */ = {
+		122D52D98A4563A2121E7BEB8835270F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7CD053797353C13EB3F9DB7D78DA2C0 /* iOSSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = B75A47899E602A5CA9E833F7D136622D /* iOSSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -778,7 +774,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/iOSSnapshotTestCase/iOSSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/iOSSnapshotTestCase/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/iOSSnapshotTestCase/iOSSnapshotTestCase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -796,9 +792,40 @@
 			};
 			name = Release;
 		};
-		1FC64C7C4D8018AFCD945EA383C2558A /* Debug */ = {
+		522B262EA097AE64B8FF6DFA25B2522A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BB8D8D8A301448760E169437F01275E /* Pods-Nightstand_UITests.debug.xcconfig */;
+			baseConfigurationReference = B75A47899E602A5CA9E833F7D136622D /* iOSSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSSnapshotTestCase/iOSSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSSnapshotTestCase/iOSSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iOSSnapshotTestCase/iOSSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58B5DEAA6571B6D73BAD2C97BAE59227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 988BE7528CD283815FFC54CD867B1CAC /* Pods-Nightstand_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -810,7 +837,72 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Nightstand_UITests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Nightstand_Example/Pods-Nightstand_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Nightstand_Example/Pods-Nightstand_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5EA3B31A778BFBC9067731DB0703B424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFC0EB0EE9B789B26B7250A4229FCBF8 /* Nightstand.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Nightstand/Nightstand-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Nightstand/Nightstand-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Nightstand/Nightstand.modulemap";
+				PRODUCT_MODULE_NAME = Nightstand;
+				PRODUCT_NAME = Nightstand;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F270C9BC71BF8AE2F7F0611A1EEFA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D93C01D8BFF80189B9F3360C7C9F1C30 /* Pods-Nightstand_UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Nightstand_UITests/Pods-Nightstand_UITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -824,14 +916,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		2959D8FC7114B55384FE24D7F55AFF76 /* Release */ = {
+		A366E6385EE35A5475444B864D7D5FEA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93670D7CE0AAB5D52982E8F64CF9502D /* Pods-Nightstand_Tests.release.xcconfig */;
+			baseConfigurationReference = 1863678A7298B8791BFBDD8897E5BD93 /* Pods-Nightstand_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -843,7 +936,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Nightstand_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Nightstand_Tests/Pods-Nightstand_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -863,9 +956,9 @@
 			};
 			name = Release;
 		};
-		49E0E68122C5A5F185C2EAF6F3DB3C82 /* Debug */ = {
+		AD526C5F94C10616264430D1F13FCBC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EA1FDAA82CBA49E3421E9628802D825 /* Pods-Nightstand_Tests.debug.xcconfig */;
+			baseConfigurationReference = 34D2873C2DCF4EE00C1CDCEF90881FA4 /* Pods-Nightstand_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -877,12 +970,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Nightstand_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Nightstand_Example/Pods-Nightstand_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Nightstand_Tests/Pods-Nightstand_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Nightstand_Example/Pods-Nightstand_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -896,7 +989,7 @@
 			};
 			name = Debug;
 		};
-		50646285DD9FD95AF390BDA3FB1948EA /* Debug */ = {
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -928,8 +1021,66 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -957,107 +1108,14 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		58DCB2BA7C34E84C00C38CEF18A96D11 /* Release */ = {
+		D1BC88789E30AB08DB9E4F7B28901B2B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		89A95F06CCD28E264F191330D900DEF2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9ED9FA377C866AAAF6FADC74F4AF927 /* Nightstand.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Nightstand/Nightstand-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Nightstand/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Nightstand/Nightstand.modulemap";
-				PRODUCT_MODULE_NAME = Nightstand;
-				PRODUCT_NAME = Nightstand;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B5CD4A574D1F4BF4B68ECAC6FDF1CE7A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4B2CFF5FC05958511806BE1C9047373 /* Pods-Nightstand_Example.debug.xcconfig */;
+			baseConfigurationReference = 69AF571B8CEDD16F30210B8E91D2EC0A /* Pods-Nightstand_UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1069,71 +1127,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Nightstand_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Nightstand_Example/Pods-Nightstand_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DD23F36F47D9FD97718BE7986D84F5DE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9ED9FA377C866AAAF6FADC74F4AF927 /* Nightstand.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Nightstand/Nightstand-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Nightstand/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Nightstand/Nightstand.modulemap";
-				PRODUCT_MODULE_NAME = Nightstand;
-				PRODUCT_NAME = Nightstand;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EB780ECCE509A53550EC9D911BAF93AC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B2A19A1ACCCEDDCCC2010EA6F0F9190 /* Pods-Nightstand_UITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Nightstand_UITests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Nightstand_UITests/Pods-Nightstand_UITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1147,15 +1141,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		EE783F7D0B154CA8F5745BBE8404895E /* Release */ = {
+		DB5DA3382A400251E7F6834832FD9B43 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFA439DD10844BA2231A578C61FC7C0E /* Pods-Nightstand_Example.release.xcconfig */;
+			baseConfigurationReference = BC42E6B80F6E28CD662661E2A5CA72FD /* Pods-Nightstand_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1167,12 +1160,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Nightstand_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Nightstand_Tests/Pods-Nightstand_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Nightstand_Example/Pods-Nightstand_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Nightstand_Tests/Pods-Nightstand_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1181,15 +1174,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		F4E2808043F26CDED939735419183D17 /* Debug */ = {
+		F17842808D830E2E7F20DC786533528F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7CD053797353C13EB3F9DB7D78DA2C0 /* iOSSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = DFC0EB0EE9B789B26B7250A4229FCBF8 /* Nightstand.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1200,82 +1192,83 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/iOSSnapshotTestCase/iOSSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/iOSSnapshotTestCase/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Nightstand/Nightstand-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Nightstand/Nightstand-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/iOSSnapshotTestCase/iOSSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
+				MODULEMAP_FILE = "Target Support Files/Nightstand/Nightstand.modulemap";
+				PRODUCT_MODULE_NAME = Nightstand;
+				PRODUCT_NAME = Nightstand;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		18C3F7BED25597DB9ADA55101DAE3797 /* Build configuration list for PBXNativeTarget "Pods-Nightstand_UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50646285DD9FD95AF390BDA3FB1948EA /* Debug */,
-				58DCB2BA7C34E84C00C38CEF18A96D11 /* Release */,
+				D1BC88789E30AB08DB9E4F7B28901B2B /* Debug */,
+				5F270C9BC71BF8AE2F7F0611A1EEFA1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E5807EA30BDBEF0D01B72AEB473B576 /* Build configuration list for PBXNativeTarget "Pods-Nightstand_Example" */ = {
+		2F17D5D0DE7A24CEE22CED3A1E67F8C3 /* Build configuration list for PBXNativeTarget "Pods-Nightstand_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5CD4A574D1F4BF4B68ECAC6FDF1CE7A /* Debug */,
-				EE783F7D0B154CA8F5745BBE8404895E /* Release */,
+				AD526C5F94C10616264430D1F13FCBC4 /* Debug */,
+				58B5DEAA6571B6D73BAD2C97BAE59227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74E6AC1007F09041DF419163DC7562CC /* Build configuration list for PBXNativeTarget "Pods-Nightstand_UITests" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1FC64C7C4D8018AFCD945EA383C2558A /* Debug */,
-				EB780ECCE509A53550EC9D911BAF93AC /* Release */,
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75CFC706563929113002D92F90CE132C /* Build configuration list for PBXNativeTarget "Nightstand" */ = {
+		65CFE8E8CFB4CA9459F42037063CDE3E /* Build configuration list for PBXNativeTarget "Nightstand" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD23F36F47D9FD97718BE7986D84F5DE /* Debug */,
-				89A95F06CCD28E264F191330D900DEF2 /* Release */,
+				5EA3B31A778BFBC9067731DB0703B424 /* Debug */,
+				F17842808D830E2E7F20DC786533528F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5813A2F6B0CDB6FD40A1348BFBA82EA /* Build configuration list for PBXNativeTarget "iOSSnapshotTestCase" */ = {
+		6D54144F463ED49E77122AF154871803 /* Build configuration list for PBXNativeTarget "Pods-Nightstand_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4E2808043F26CDED939735419183D17 /* Debug */,
-				009E788625D6DA5F4317D0F08080F6C5 /* Release */,
+				DB5DA3382A400251E7F6834832FD9B43 /* Debug */,
+				A366E6385EE35A5475444B864D7D5FEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E58DB81C97F06EF4AEC273B594F81671 /* Build configuration list for PBXNativeTarget "Pods-Nightstand_Tests" */ = {
+		A2580343E01EF46F4A1E600895C7753A /* Build configuration list for PBXNativeTarget "iOSSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				49E0E68122C5A5F185C2EAF6F3DB3C82 /* Debug */,
-				2959D8FC7114B55384FE24D7F55AFF76 /* Release */,
+				522B262EA097AE64B8FF6DFA25B2522A /* Debug */,
+				122D52D98A4563A2121E7BEB8835270F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

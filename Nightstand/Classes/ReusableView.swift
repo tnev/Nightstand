@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// A view that can create its own reuse identifier
 public protocol ReusableView
 {
     static var reuseIdentifier: String { get }
@@ -20,4 +21,5 @@ public extension ReusableView
     }
 }
 
+/// Allow all `UITableViewCell`s to create their own `reuseIdentifier` for cell reuse
 extension UITableViewCell: ReusableView {}

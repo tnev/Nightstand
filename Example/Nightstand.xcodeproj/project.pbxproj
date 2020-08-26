@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2114E875B35C74D86928DFA8 /* Pods_Nightstand_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED5538F384BFC27142C6D80 /* Pods_Nightstand_Example.framework */; };
+		3C114F7FE940BF116D93846D /* Pods_Nightstand_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22AD58EE06DBB98306BD9253 /* Pods_Nightstand_UITests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
@@ -92,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C114F7FE940BF116D93846D /* Pods_Nightstand_UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,9 +254,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73FC1AA32232FDE600FC7383 /* Build configuration list for PBXNativeTarget "Nightstand_UITests" */;
 			buildPhases = (
+				D73E21AEC3C636065BE0F0EC /* [CP] Check Pods Manifest.lock */,
 				73FC1A982232FDE600FC7383 /* Sources */,
 				73FC1A992232FDE600FC7383 /* Frameworks */,
 				73FC1A9A2232FDE600FC7383 /* Resources */,
+				ABDAB5A65A75CA3DCED0A178 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,7 +299,7 @@
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "Nightstand" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -367,21 +371,35 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Nightstand_Example/Pods-Nightstand_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Nightstand_Example/Pods-Nightstand_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Nightstand/Nightstand.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nightstand.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nightstand_Example/Pods-Nightstand_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nightstand_Example/Pods-Nightstand_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABDAB5A65A75CA3DCED0A178 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nightstand_UITests/Pods-Nightstand_UITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/iOSSnapshotTestCase/FBSnapshotTestCase.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nightstand_UITests/Pods-Nightstand_UITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D2D3A3539FFB8142908CE2B6 /* [CP] Embed Pods Frameworks */ = {
@@ -389,21 +407,39 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Nightstand_Tests/Pods-Nightstand_Tests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Nightstand_Tests/Pods-Nightstand_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/iOSSnapshotTestCase/FBSnapshotTestCase.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nightstand_Tests/Pods-Nightstand_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nightstand_Tests/Pods-Nightstand_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D73E21AEC3C636065BE0F0EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nightstand_UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E1452A0220DED063397F41FA /* [CP] Check Pods Manifest.lock */ = {
@@ -666,6 +702,7 @@
 		};
 		73FC1AA42232FDE600FC7383 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFAE7302FCEF6EDA07A190BD /* Pods-Nightstand_UITests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -694,6 +731,7 @@
 		};
 		73FC1AA52232FDE600FC7383 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2480A9BA061B66E583E47E12 /* Pods-Nightstand_UITests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;

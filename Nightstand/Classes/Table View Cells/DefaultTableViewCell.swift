@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// A cell using the `.default` style
 public class DefaultTableViewCell: UITableViewCell
 {
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?)

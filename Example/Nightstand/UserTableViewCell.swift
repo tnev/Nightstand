@@ -23,8 +23,6 @@ public class UserTableViewCell: UITableViewCell
     {
         super.init(style: style, reuseIdentifier: UserTableViewCell.reuseIdentifier)
         
-        selectionStyle = .none
-        
         setupStackView()
     }
     

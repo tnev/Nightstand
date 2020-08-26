@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// A type that can provide a UITableView, its actions, and its configuration
 public protocol CellProvider
 {
     var actions: TableViewCellActions? { get }

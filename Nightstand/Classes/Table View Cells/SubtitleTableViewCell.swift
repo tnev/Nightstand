@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// A cell using the `.subtitle` style
 public class SubtitleTableViewCell: UITableViewCell
 {   
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?)

@@ -23,6 +23,7 @@ class SectionFactory
 // MARK: - Sections
 extension SectionFactory
 {
+    /// Returns an array of `Section`s for the given `TableType`
     func sections(for table: TableViewController.TableType, using coordinator: TableViewCoordinator) -> [Section]
     {
         switch table
@@ -35,7 +36,8 @@ extension SectionFactory
         case .userTable: return userSections()
         }
     }
-    
+
+    /// Returns an array containing the Cell Choice `Section`
     private func cellChoiceSections(using coordinator: TableViewCoordinator) -> [Section]
     {
         return [Section(title: "Select a cell to see more",
@@ -52,6 +54,7 @@ extension SectionFactory
 // MARK: - Cell Choice Cells
 extension SectionFactory
 {
+    /// Returns the `Row` for the `DefaultTableViewCell`
     private func cellChoiceSectionDefaultRow(coordinator: TableViewCoordinator) -> Row<DefaultTableViewCell>
     {
         let model = DefaultTableViewCell.Model(text: "Default Cells",
@@ -63,7 +66,8 @@ extension SectionFactory
                                             configuration: cellChoiceCellConfiguration)
         return row
     }
-    
+
+    /// Returns the `Row` for the `SubtitleTableViewCell`
     private func cellChoiceSectionSubtitleRow(coordinator: TableViewCoordinator) -> Row<SubtitleTableViewCell>
     {
         let model = SubtitleTableViewCell.Model(text: "Subtitle Cells",
@@ -75,7 +79,8 @@ extension SectionFactory
                                              configuration: cellChoiceCellConfiguration)
         return row
     }
-    
+
+    /// Returns the `Row` for the `Value1TableViewCell`
     private func cellChoiceSectionValue1Row(coordinator: TableViewCoordinator) -> Row<Value1TableViewCell>
     {
         let model = Value1TableViewCell.Model(text: "Value1 Cells",
@@ -87,7 +92,8 @@ extension SectionFactory
                                            configuration: cellChoiceCellConfiguration)
         return row
     }
-    
+
+    /// Returns the `Row` for the `Value2TableViewCell`
     private func cellChoiceSectionValue2Row(coordinator: TableViewCoordinator) -> Row<Value2TableViewCell>
     {
         let model = Value2TableViewCell.Model(text: "Value2 Cells",
@@ -99,7 +105,8 @@ extension SectionFactory
                                            configuration: cellChoiceCellConfiguration)
         return row
     }
-    
+
+    /// Returns the `Row` for the `UserTableViewCell`
     private func cellChoiceSectionUserRow(coordinator: TableViewCoordinator) -> Row<UserTableViewCell>
     {
         let model = UserTableViewCell.Model(name: "User Cells",
@@ -114,9 +121,10 @@ extension SectionFactory
     }
 }
 
-// MARK: - Specific Cell Sections
+// MARK: - Cell Detail Sections
 extension SectionFactory
 {
+    /// Returns an array containing the section for the `DefaultTableViewCell` detail view
     private func defaultSections() -> [Section]
     {
         var rows = RowCollection()
@@ -129,7 +137,8 @@ extension SectionFactory
         
         return [Section(title: "Default Cells", rows: rows)]
     }
-    
+
+    /// Returns an array containing the section for the `SubtitleTableViewCell` detail view
     private func subtitleSections() -> [Section]
     {
         var rows = RowCollection()
@@ -142,7 +151,8 @@ extension SectionFactory
         
         return [Section(title: "Subtitle Cells", rows: rows)]
     }
-    
+
+    /// Returns an array containing the section for the `Value1TableViewCell` detail view
     private func value1Sections() -> [Section]
     {
         var rows = RowCollection()
@@ -155,7 +165,8 @@ extension SectionFactory
         
         return [Section(title: "Value 1 Cells", rows: rows)]
     }
-    
+
+    /// Returns an array containing the section for the `Value2TableViewCell` detail view
     private func value2Sections() -> [Section]
     {
         var rows = RowCollection()
@@ -168,7 +179,8 @@ extension SectionFactory
         
         return [Section(title: "Value 2 Cells", rows: rows)]
     }
-    
+
+    /// Returns an array containing the section for the `UserTableViewCell` detail view
     private func userSections() -> [Section]
     {
         var rows = RowCollection()

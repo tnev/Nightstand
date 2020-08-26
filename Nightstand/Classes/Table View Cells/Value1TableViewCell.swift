@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// A cell using the `.value1` style
 public class Value1TableViewCell: UITableViewCell
 {    
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?)

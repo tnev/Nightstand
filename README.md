@@ -64,40 +64,19 @@ let section = Section(title: "Hello World",
 ```
 
 ## Putting it all together
-Once you’ve defined your **Row**s and **Section**s, you just have to make sure the controller that contains your table view conforms to the **Sectioned** protocol. This is a protocol has a single requirement:
+Once you’ve defined your **Row**s and **Section**s, you can use them to initialize your Nightstand:
 
 ```swift
-var sections: [Section] { get }
+let nightstand = Nightstand(sections: sections)
 ```
   
-**Sectioned** is extended to have default implementations for all of the supported UITableViewDelegate and UITableViewDataSource methods. Your only job is to call these default methods from your table view's delegate and data source, like so:
-
+**Nightstand** conforms to `UITableViewDelegate` and `UITableViewDataSource`, and is extended to have default implementations for all of the supported methods. Your only job is to set the `Nightstand` as the `UITableViewController`'s data source and delegate.
+  
 ```swift
-extension TableViewController: UITableViewDataSource {
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return numberOfSections()
-    }
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return numberOfRows(in: section)
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return cellForRowAt(at: indexPath, in: tableView)
-    }
-}
-
-extension TableViewController: UITableViewDelegate {
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        didSelectRow(at: indexPath)
-    }
-    
-    func tableView(_ tableView: UITableView, accessoryButtonTappedForRowWith indexPath: IndexPath) {
-        accessoryButtonTapped(forRowAt: indexPath)
-    }
-}
+tableView.dataSource = nightstand
+tableView.delegate = nightstand
 ```
-
+  
 Nightstand will take care of the rest.
 
 If you're having any trouble, or want to see more code, please refer to the example project. To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -114,7 +93,7 @@ override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
 }
 ```
 
-Nightstand extends UITableViewCell so that it has a `reuseIdentifier` by default. In fact, this initializer is all you need in order to implement cell reuse.
+Nightstand extends UITableViewCell so that it has a `reuseIdentifier` by default. In fact, the above initializer is all you need in order to implement cell reuse.
 
 The next thing you'll need to do is have your cell conform to the `Configurable` protocol. This protocol has two requirements:
 

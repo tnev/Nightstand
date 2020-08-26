@@ -1,8 +1,8 @@
 {
   "name": "Nightstand",
   "version": "0.1.0",
-  "summary": "A short description of Nightstand.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Mightstand simplifies working with static UITableViews",
+  "description": "Nightstand allows you to create static UITableViews without having to worry about data sources and delegates. Just create your sections and rows, and you're good to go. Nightstand is fully customizable and works with both system and custom UITableViewCells.",
   "homepage": "https://github.com/tnev/Nightstand",
   "license": {
     "type": "MIT",
@@ -18,5 +18,7 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "Nightstand/Classes/**/*"
+  "swift_versions": "4.2",
+  "source_files": "Nightstand/Classes/**/*",
+  "swift_version": "4.2"
 }
