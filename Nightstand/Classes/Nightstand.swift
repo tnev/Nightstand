@@ -1,5 +1,5 @@
 //
-//  SectionedTableViewController.swift
+//  Nightstand.swift
 //  Nightstand
 //
 //  Created by Tyler Neveldine on 2/13/19.
@@ -17,7 +17,7 @@ public class Nightstand: NSObject, UITableViewDataSource, UITableViewDelegate
     }
 }
 
-// A Sectioned type is able to fulfill all of the requirements of a UITableViewDataSource
+// A Nightstand type is able to fulfill all of the requirements of a UITableViewDataSource
 // and UITableViewDelegate
 
 // MARK: -  UITableViewDataSource
