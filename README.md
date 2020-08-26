@@ -70,7 +70,7 @@ Once you’ve defined your **Row**s and **Section**s, you can use them to initia
 let nightstand = Nightstand(sections: sections)
 ```
   
-**Nightstand** conforms to `UITableViewDelegate` and `UITableViewDataSource`, and is extended to have default implementations for all of the supported methods. Your only job is to set the `Nightstand` as the `UITableViewController`'s data source and delegate.
+**Nightstand** conforms to `UITableViewDelegate` and `UITableViewDataSource`, and is extended to have default implementations for all of the supported methods. Your only job is to set the `Nightstand` as the `UITableView`'s data source and delegate.
   
 ```swift
 tableView.dataSource = nightstand

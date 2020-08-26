@@ -33,27 +33,31 @@ class TableViewController: UIViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        
+
+        registerCells()
         setupTableView()
+        setupNavigationItem()
     }
 }
 
 // MARK: - UI
 extension TableViewController
 {
-    private func setupTableView()
-    {
-        // Register the necessary cell types
+    /// Register the necessary cell types
+    private func registerCells() {
         let cellTypes = [DefaultTableViewCell.self,
                          SubtitleTableViewCell.self,
                          Value1TableViewCell.self,
                          Value2TableViewCell.self,
                          UserTableViewCell.self]
-        
+
         for cellType in cellTypes
         { tableView.register(cellType, forCellReuseIdentifier: cellType.reuseIdentifier) }
-        
-        // Add the tableview as a subview and set constraints
+    }
+
+    /// Adds `tableView` to the view hierarchy and sets its constraints, data source, and delegate
+    private func setupTableView()
+    {
         view.addSubview(tableView)
         tableView.translatesAutoresizingMaskIntoConstraints = false
         
@@ -62,16 +66,15 @@ extension TableViewController
             tableView.rightAnchor.constraint(equalTo: view.rightAnchor),
             tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
             tableView.topAnchor.constraint(equalTo: view.topAnchor)
-            ])
+        ])
 
         // Set the data source and delegate to nightstand
         tableView.dataSource = nightstand
         tableView.delegate = nightstand
+    }
 
-        // Configure row height
-        tableView.rowHeight = UITableView.automaticDimension
-        tableView.estimatedRowHeight = 44
-
+    /// Configure navigation item with Nightstand logo
+    private func setupNavigationItem() {
         navigationItem.titleView = UIImageView(image: UIImage(named: "Logo"))
         if #available(iOS 11.0, *) {
             navigationController?.navigationBar.prefersLargeTitles = true
