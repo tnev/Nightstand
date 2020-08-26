@@ -136,6 +136,8 @@ extension UserTableViewCell: Configurable {
 
 ## Installation
 
+For swift 4.2 support, please use version 0.1.0
+
 ### CocoaPods
 
 CocoaPods is a dependency manager for Cocoa projects. To install Nightstand with CocoaPods:
