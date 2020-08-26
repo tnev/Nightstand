@@ -71,6 +71,11 @@ extension TableViewController
         // Configure row height
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 44
+
+        navigationItem.titleView = UIImageView(image: UIImage(named: "Logo"))
+        if #available(iOS 11.0, *) {
+            navigationController?.navigationBar.prefersLargeTitles = true
+        }
     }
 }
 
